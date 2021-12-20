@@ -1,0 +1,917 @@
+{
+  "meta": {
+    "title": "ESCP Survey - Going Concern (2022)",
+    "version": "0.0.1"
+  },
+  "general": {
+    "settings": {
+      "preventBrowserBackFunctionality": true
+    }
+  },
+  "pages": [
+    {
+      "prevId": null,
+      "thisId": 1,
+      "nextId": 2,
+      "labelNextPage": "Los geht's",
+      "settings": {
+        "allowMoveBack": false,
+        "allowProceed": true
+      },
+      "sections": [
+        {
+          "id": "s0",
+          "settings": {},
+          "elements": [
+            {
+              "id": "s0.headline",
+              "module": "headline",
+              "data": {
+                "text": "Willkommen!"
+              }
+            },
+            {
+              "id": "s0.text",
+              "module": "text",
+              "data": {
+                "paragraphs": [
+                  {
+                    "text": "Herzlichen Dank für deine Teilnahme an dieser Studie und für deine wertvolle Zeit. Ziel dieses Forschungsprojektes ist es, Erkenntnisse über die Entscheidungsfindung eines/einer (Abschluss-)Prüfers/Prüferin zu gewinnen. Daher werden dir während der Studie Fragen gestellt, wie du Informationen beurteilst."
+                  },
+                  {
+                    "text": "Bitte bearbeite die Fallstudie so gut du kannst und beantworte die Fragen bestmöglich. Es ist nicht notwendig, Quellen oder Hilfsmittel außerhalb des Fallmaterials zu benutzen, und daher solltest du auch kein zusätzliches Material bei der Bearbeitung verwenden. [b]Deine Antworten werden während der Bearbeitung der Fallstudie gespeichert.[/b] Klicke daher bitte [b]niemals auf den “Zurück”-Button im Browser, denn andernfalls sind deine Antworten nicht verwendbar.[/b]"
+                  },
+                  {
+                    "text": "Da es in dieser Studie um den Entscheidungsprozess einer Einzelperson geht, ist es [b]wichtig, dass du unabhängig von anderen Personen arbeitest, die auch an dieser Studie teilnehmen.[/b] Deine Antworten werden mit anderen aggregiert und können nicht mehr mit deiner Person verknüpft werden. Wenn du über die Studienergebnisse informiert werden möchtest, gib bitte am Ende dieser Studie deine E-Mail-Adresse an."
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "prevId": 1,
+      "thisId": 2,
+      "nextId": 3,
+      "labelNextPage": "Weiter",
+      "settings": {
+        "allowMoveBack": true
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "settings": {},
+          "elements": [
+            {
+              "id": "0.intro",
+              "module": "headline",
+              "data": {
+                "text": "Einführung in die Fallstudie und Prüfungsgegenstand!"
+              }
+            },
+            {
+              "id": "s1.intro",
+              "module": "text",
+              "data": {
+                "paragraphs": [
+                  {
+                    "text": "Du bist verantwortliche:r Prüfer:in für die Abschlussprüfung der Loschert Electronic AG ('Loschert') für das am 31. Dezember 2020 endende Geschäftsjahr. Du wurdest kürzlich der Prüfung zugeteilt, nachdem der zuvor zuständige Prüfer nach Abschluss der Prüfungshandlungen bei Loschert vor Ort krankgeschrieben wurde."
+                  },
+                  {
+                    "text": "Das Management von Loschert geht davon aus, dass die Annahme der Fortführung des Unternehmens erfüllt ist und dass das Unternehmen seine Geschäftstätigkeit in absehbarer Zukunft (d. h. 12 Monate nach dem Bilanzstichtag) fortsetzen kann."
+                  },
+                  {
+                    "text": "Im Rahmen der Prüfung ist zu beurteilen, ob die Annahme der Unternehmensfortführung des Mandanten angemessen ist sowie, ob eine wesentliche Unsicherheit in Bezug auf die Unternehmensfortführung besteht."
+                  },
+                  {
+                    "text": "Die erste Einschätzung des Managements reicht nicht aus, um eine Schlussfolgerung über die Angemessenheit zu treffen. Daher hat der bisherige verantwortliche Prüfer das Management von Loschert gebeten, eine Stellungnahme zur Fortführungsannahme zu erstellen, die alle relevanten Informationen, insbesondere eine Cashflow-Prognose, enthält."
+                  },
+                  {
+                    "text": "Damit du bereit bist, diese Bewertung des Managements zu beurteilen (die dir noch nicht zur Verfügung steht), hast du nun die Aufgabe, relevante Informationen für die verantwortliche Partnerin zu sammeln und diese zu beurteilen. Darauf aufbauend sollst du deine Einschätzung zur Angemessenheit der Fortführungsannahme von Loschert abgeben. "
+                  },
+                  {
+                    "text": "Insbesondere möchte die verantwortliche Partnerin deine Meinung dazu, ob eine wesentliche Unsicherheit besteht, die erhebliche Zweifel an der Fähigkeit zur Fortführung der Unternehmenstätigkeit von Loschert begründet."
+                  }
+                ]
+              }
+            },
+            {
+              "id": "s2.hint",
+              "module": "boxedtext",
+              "data": {
+                "paragraphs": [
+                  {
+                    "text": "[b]Hinweis[/b]"
+                  },
+                  {
+                    "text": "Bitte ignoriere alle besonderen Ereignisse und einmaligen Umstände, die für die Prüfungen des Geschaftsjahres 2020 spezifisch sind (z. B. Auswirkungen von COVID-19). Nimm an, dass wir uns im März 2021 befinden."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "settings": {},
+          "elements": [
+            {
+              "id": "s2.headline",
+              "module": "headline",
+              "data": {
+                "text": "Informationen zum Prüfungsmandanten Loschert Electronic AG"
+              }
+            },
+            {
+              "id": "s2.text",
+              "module": "text",
+              "data": {
+                "paragraphs": [
+                  {
+                    "text": "Die Loschert Electronic AG ('Loschert') produziert und vertreibt hochwertige Lichttechnik und Komponenten für Automobile. Darüber hinaus bietet Loschert verschiedene Dienstleistungen und Reparaturlösungen in Erstausrüstungsqualität an. Loschert ist seit über 40 Jahren im Automobilkomponentengeschäft tätig und verfügt über erfahrenes Personal mit umfangreicher Expertise in allen dafür relevanten Bereichen. Die Aktien des Unternehmens befinden sich in Privatbesitz."
+                  },
+                  {
+                    "text": "Deine Wirtschaftsprüfungsgesellschaft hat in den letzten sechs Jahren die Abschlussprüfung von Loschert durchgeführt, und wurde auch in diesem Jahr mit der Abschlussprüfung für das am 31. Dezember 2020 endende Geschäftsjahr beauftragt. Deine Firma hat in den letzten sechs Jahren jeweils uneingeschränkte Bestätigungsvermerke erteilt."
+                  },
+                  {
+                    "text": "Nach umfangreicher Prüfungsplanung wurde wie in den Vorjahren das Kontrollrisiko als niedrig beurteilt."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "settings": {},
+          "elements": [
+            {
+              "id": "s2.headline",
+              "module": "headline",
+              "data": {
+                "text": "Hintergrundinformationen für die Prüfung 2020"
+              }
+            },
+            {
+              "id": "s2.text",
+              "module": "text",
+              "data": {
+                "paragraphs": [
+                  {
+                    "text": "Im abgelaufenen Geschäftsjahr sind für Loschert folgende Ereignisse von besonderer Bedeutung:"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "s2.bulletpoints",
+              "module": "bulletlist",
+              "data": {
+                "paragraphs": [
+                  {
+                    "text": "Die Branche hat sich weiterhin rasant verändert. Du erkennst, dass im Laufe des Jahres viele neue Wettbewerber in den Markt kamen und mehrere Wettbewerber scheiterten."
+                  },
+                  {
+                    "text": "Der Umsatz sank in diesem Jahr um 31% und die Handelsspanne von 43% auf 36%."
+                  },
+                  {
+                    "text": "Im Laufe des Jahres 2020 schloss Loschert den Verkauf einer seiner am wenigsten kosteneffizienten Fertigungsstätten zu Liquiditätszwecken ab"
+                  },
+                  {
+                    "text": "Im Juni erwarb Loschert den Geschäftsbereich “autonomes Fahren” von einem seiner größten Wettbewerber (gegen Stammaktien und Barkomponente, finanziert durch Aufnahme langfristiger Schulden). Die Transaktion erhöhte die Anzahl der ausgegebenen Aktien um 33% und verdoppelte die langfristige Verschuldung des Unternehmens. Das Management geht davon aus, dass der erworbene Geschäftsbereich in Zukunft signifikante Umsatzerlöse erzielen wird"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "s2.text",
+              "module": "text",
+              "data": {
+                "paragraphs": [
+                  {
+                    "text": "Bilanz, Gewinn- und Verlustrechnung, und ausgewählte Cashflow-Informationen - dem noch in der Prüfung befindlichen vorläufigen IFRS-Konzern-Jahresabschluss entnommen - stellen sich wie folgt dar:"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "S2.pdfBilanz",
+              "module": "LinkThumbnail",
+              "settings": {},
+              "type": "Viewer",
+              "data": {
+                "name": "pdf-bilanz",
+                "title": "Bilanz",
+                "url": "/pdfs/bilanz.pdf",
+                "target": "_blank"
+              }
+            },
+            {
+              "id": "S2.pdfGuV",
+              "module": "LinkThumbnail",
+              "settings": {},
+              "type": "Viewer",
+              "data": {
+                "name": "pdf-guV",
+                "title": "Gewinn- und Verlustrechnung",
+                "url": "/pdfs/bilanz.pdf",
+                "target": "_blank"
+              }
+            },
+            {
+              "id": "S2.pdfcashflowinfo",
+              "module": "LinkThumbnail",
+              "settings": {},
+              "type": "Viewer",
+              "data": {
+                "name": "pdf-cashflowinfo",
+                "title": "Ausgewählte Cashflow-Informationen",
+                "url": "/pdfs/cashflowinfo.pdf",
+                "target": "_blank"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "prevId": 2,
+      "thisId": 3,
+      "nextId": 4,
+      "labelNextPage": "Weiter",
+      "settings": {
+        "allowMoveBack": true
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "settings": {},
+          "elements": [
+            {
+              "id": "0.intro",
+              "module": "headline",
+              "data": {
+                "text": "Fragen zum vorläufigen Jahresabschluss"
+              }
+            },
+            {
+              "id": "3.1.q1",
+              "module": "text",
+              "data": {
+                "paragraphs": [
+                  {
+                    "text": "1.1. Basierend auf den zuvor dargestellten Informationen – wie hoch schätzt du die Wahrscheinlichkeit, dass Loschert innerhalb der 12 Monate nach dem Bilanzstichtag weiter existieren kann? (0 - 100)"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "S1.slider1",
+              "module": "Slider",
+              "settings": {},
+              "data": {
+                "name": "3.1_slider",
+                "label": null,
+                "unit": "%",
+                "min": 0,
+                "max": 100,
+                "step": 1
+              }
+            },
+            {
+              "id": "3.1.q2",
+              "module": "text",
+              "data": {
+                "paragraphs": [
+                  {
+                    "text": "1.2. Wie sicher bist du dir bei deiner Schätzung dieser Wahrscheinlichkeit (-5 = überhaupt nicht sicher; 5 = vollkommen sicher)?"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "3.1.q2",
+              "module": "SelectFromRange",
+              "settings": {},
+              "data": {
+                "name": "0_3_2_confidence",
+                "label": null,
+                "options": [
+                  {
+                    "value": -5,
+                    "label": "nicht sicher"
+                  },
+                  {
+                    "value": -4
+                  },
+                  {
+                    "value": -3
+                  },
+                  {
+                    "value": -2
+                  },
+                  {
+                    "value": -1
+                  },
+                  {
+                    "value": 0
+                  },
+                  {
+                    "value": 1
+                  },
+                  {
+                    "value": 2
+                  },
+                  {
+                    "value": 3
+                  },
+                  {
+                    "value": 4
+                  },
+                  {
+                    "value": 5,
+                    "label": "sehr sicher"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "prevId": 3,
+      "thisId": 4,
+      "nextId": 5,
+      "labelNextPage": "Weiter",
+      "settings": {
+        "allowMoveBack": false
+      },
+      "sections": [
+        {
+          "id": "s1",
+          "settings": {},
+          "elements": [
+            {
+              "id": "0.intro",
+              "module": "headline",
+              "data": {
+                "text": "Aufgabenstellung"
+              }
+            },
+            {
+              "id": "4.1.intervention",
+              "module": "pickversion",
+              "data": {
+                "name": "04.choosenVersion",
+                "versions": [
+                  {
+                    "id": "v1",
+                    "settings": {},
+                    "elements": [
+                      {
+                        "id": "4.1.v1.text",
+                        "module": "text",
+                        "data": {
+                          "paragraphs": [
+                            {
+                              "text": "Überlege dir paradoxe Aussagen, die dir in der Vergangenheit begegnet sind oder die du interessant findest. Schreibe diese bitte in den unten vorgesehenen Platz. Bitte notiere mindestens drei solcher Aussagen."
+                            },
+                            {
+                              "text": "Mit „paradox“ sind scheinbar in sich widersprüchliche und dennoch möglicherweise wahre Aussagen gemeint, zum Beispiel:"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "4.1.v1.bulletpoints",
+                        "module": "bulletlist",
+                        "data": {
+                          "paragraphs": [
+                            {
+                              "text": "Es ist paradox, dass Stehen anstrengender ist als Laufen."
+                            },
+                            {
+                              "text": "Es ist paradox, dass wir Dinge, die leicht verfügbar sind, weniger wollen als Dinge, die wir weniger leicht haben können."
+                            },
+                            {
+                              "text": "Es ist paradox, dass Wirtschaftsprüfer ihren Prüfungsmandanten gegenüber unabhängig sein sollen und dennoch eine gute Mandantenbeziehung aufbauen möchten."
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "4.1.v1.s1",
+                        "module": "TextInput",
+                        "type": "Input",
+                        "data": {
+                          "isOptional": false,
+                          "name": "v1_s1",
+                          "rows": 3,
+                          "label": "1)",
+                          "placeholder": "hier eingeben..."
+                        }
+                      },
+                      {
+                        "id": "4.1.v1.s2",
+                        "module": "TextInput",
+                        "type": "Input",
+                        "data": {
+                          "isOptional": false,
+                          "name": "v1_s2",
+                          "rows": 2,
+                          "label": "2)",
+                          "placeholder": "hier eingeben..."
+                        }
+                      },
+                      {
+                        "id": "4.1.v1.s3",
+                        "module": "TextInput",
+                        "type": "Input",
+                        "data": {
+                          "isOptional": false,
+                          "name": "v1_s3",
+                          "rows": 2,
+                          "label": "3)",
+                          "placeholder": "hier eingeben..."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "v2",
+                    "settings": {},
+                    "elements": [
+                      {
+                        "id": "4.1.v2.text",
+                        "module": "text",
+                        "data": {
+                          "paragraphs": [
+                            {
+                              "text": "Überlege dir Aussagen, die dir in der Vergangenheit begegnet sind oder die du interessant findest. Schreibe diese bitte in den unten vorgesehenen Platz. Bitte notier mindestens drei solcher Aussagen, zum Beispiel:"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "4.1.v2.bulletpoints",
+                        "module": "bulletlist",
+                        "data": {
+                          "paragraphs": [
+                            {
+                              "text": "Viele Menschen denken, dass Stehen anstrengend ist."
+                            },
+                            {
+                              "text": "Viele Menschen denken, dass Dinge, die wir nicht leicht haben können, begehrenswert sind."
+                            },
+                            {
+                              "text": "Viele Menschen denken, dass unabhängige Wirtschaftsprüfer eine wichtige Rolle in Wirtschaft und Gesellschaft erfüllen"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "4.1.v2.a1",
+                        "module": "TextInput",
+                        "type": "Input",
+                        "data": {
+                          "isOptional": false,
+                          "name": "v2_s01",
+                          "rows": 3,
+                          "label": "1)",
+                          "placeholder": "hier eingeben..."
+                        }
+                      },
+                      {
+                        "id": "4.1.v2.a2",
+                        "module": "TextInput",
+                        "type": "Input",
+                        "data": {
+                          "isOptional": false,
+                          "name": "v2_s02",
+                          "rows": 2,
+                          "label": "2)",
+                          "placeholder": "hier eingeben..."
+                        }
+                      },
+                      {
+                        "id": "4.1.v2.a3",
+                        "module": "TextInput",
+                        "type": "Input",
+                        "data": {
+                          "isOptional": false,
+                          "name": "v2_s03",
+                          "rows": 2,
+                          "label": "3)",
+                          "placeholder": "hier eingeben..."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "prevId": 4,
+      "thisId": 5,
+      "nextId": 6,
+      "labelNextPage": "Einschätzung abgeben",
+      "settings": {
+        "allowMoveBack": false,
+        "confirmMoveForward": {
+          "title": "Möchten Sie jetzt Ihre Einschätzung abgeben?",
+          "text": [
+            "Wenn sie jetzt auf 'Bestätigen' klicken dann können Sie nicht mehr zurück zur Suche.",
+            "Sind Sie sicher, dass Sie alle nötigen Daten recherchiert haben und jetzt Ihre Einschätzung abgeben wollen?"
+          ],
+          "buttons": {
+            "accept": "Ja, weiter",
+            "reject": "Nein, noch nicht"
+          }
+        }
+      },
+      "sections": [
+        {
+          "id": "sec1",
+          "settings": {},
+          "elements": [
+            {
+              "id": "s0.headline",
+              "module": "headline",
+              "data": {
+                "text": "Suchmaske"
+              }
+            },
+            {
+              "id": "3.1.q2",
+              "module": "text",
+              "data": {
+                "paragraphs": [
+                  {
+                    "text": "Erinnere dich, dass du in der Rolle des/der verantwortlichen Prüfers/Prüferin bei der Abschlussprüfung der Loschert Electronic AG bist. Du wurdest nach Abschluss der Prüfungshandlungen vor Ort beim Mandaten dieser Prüfung zugeteilt, nachdem der zuvor zuständige Prüfer aufgrund von Krankheit ausgefallen ist."
+                  },
+                  {
+                    "text": "Das Management von Loschert geht davon aus, dass die Annahme der Unternehmensfortführung angemessen ist, hat aber diesbezüglich noch keine detaillierte Stellungnahme zur Fortführungsannahme vorgelegt."
+                  },
+                  {
+                    "text": "Bitte suche in den Arbeitspapieren nach Informationen, die du für die Beurteilung der Annahmen, die der Fortführungsprognose zu Grunde liegen, für relevant hältst. Dein Ziel ist es, dich auf die Beurteilung der vom Management noch vorzulegenden Stellungnahme zur Fortführungsannahme vorzubereiten. Nachdem du deinen Suchbegriff eingegeben hast, erhältst du jeweils eine Liste aller verfügbaren Unterlagen aus den Arbeitspapieren, die deinem Suchbegriff entsprechen. "
+                  },
+                  {
+                    "text": "Zu keinem Zeitpunkt während dieser Aufgabe sollst du den 'Zurück'-Button im Browser verwenden. Nachdem du die angezeigte Unterlage gelesen hast, wirst du automatisch zur Suchmaske zurückgeführt und kannst weitere Suchbegriffe eingeben. Wenn du eine bereits angezeigte Information erneut ansehen möchtest, gib den zutreffenden Suchbegriff bitte erneut ein. "
+                  },
+                  {
+                    "text": "Wenn du ausreichend Informationen gesammelt hast, um deine persönliche Einschätzung für die Partnerin abzugeben, klicke auf den Button 'Einschätzung abgeben'."
+                  },
+                  {
+                    "text": "Wörter mit weniger als vier Buchstaben führen zu keinem Suchergebnis. Außerdem sind die Suchen darauf ausgelegt, spezifische Informationen zu finden. Sei daher bei der Eingabe deiner Suchbegriffe möglichst konkret. "
+                  },
+                  {
+                    "text": "Bitte denke daran, dass du bei der Suche nach Informationen alle besonderen Ereignisse und einmaligen Umstände, die für das Geschäftsjahr 2020 besonders sind (z. B. Auswirkungen von COVID-19), vernachlässigen sollst"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "S2.0.2.ResearchSimulation",
+              "module": "ResearchSimulation",
+              "type": "Input",
+              "data": {
+                "isOptional": false,
+                "name": "researchHistory",
+                "rows": 2,
+                "label": "Suchmaschine"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "prevId": 5,
+      "thisId": 6,
+      "nextId": 7,
+      "labelNextPage": "Antworten absenden",
+      "settings": {
+        "allowMoveBack": false,
+        "allowProceed": true
+      },
+      "sections": [
+        {
+          "id": "s0",
+          "settings": {},
+          "elements": [
+            {
+              "id": "s0.headline",
+              "module": "headline",
+              "data": {
+                "text": "Deine Einschätzung"
+              }
+            },
+            {
+              "id": "s0.text",
+              "module": "text",
+              "data": {
+                "paragraphs": [
+                  {
+                    "text": "A1) Wie bewertest du alle die bisherigen Informationen insgesamt im Hinblick auf die Unternehmensfortführungs-Annahme von Loschert? (-5 = sehr negativ; 5 = sehr positiv)"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "S1.SelectFromRange1",
+              "module": "SelectFromRange",
+              "settings": {},
+              "data": {
+                "name": "E_A1",
+                "label": null,
+                "options": [
+                  {
+                    "value": -5,
+                    "label": "sehr negativ"
+                  },
+                  {
+                    "value": -4
+                  },
+                  {
+                    "value": -3
+                  },
+                  {
+                    "value": -2
+                  },
+                  {
+                    "value": -1
+                  },
+                  {
+                    "value": 0
+                  },
+                  {
+                    "value": 1
+                  },
+                  {
+                    "value": 2
+                  },
+                  {
+                    "value": 3
+                  },
+                  {
+                    "value": 4
+                  },
+                  {
+                    "value": 5,
+                    "label": "sehr positiv"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "s0.text",
+              "module": "text",
+              "data": {
+                "paragraphs": [
+                  {
+                    "text": "B1) Nachdem du alle zuvor gezeigten Informationen gesehen hast, wie hoch schätzt du die Wahrscheinlichkeit, dass Loschert innerhalb der 12 Monate nach dem Bilanzstichtag weiter existieren kann? (0 - 100%)"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "S1.slider1",
+              "module": "Slider",
+              "settings": {},
+              "data": {
+                "name": "E_B1",
+                "label": "RangeSlider",
+                "unit": "%",
+                "min": 0,
+                "max": 100,
+                "step": 1
+              }
+            },
+            {
+              "id": "s0.text",
+              "module": "text",
+              "data": {
+                "paragraphs": [
+                  {
+                    "text": "B2) Wie sicher bist du dir bei deiner Schätzung dieser Wahrscheinlichkeit (-5 = überhaupt nicht sicher; 5 = vollkommen sicher)?"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "S1.SelectFromRange1",
+              "module": "SelectFromRange",
+              "settings": {},
+              "data": {
+                "name": "E_A1",
+                "label": null,
+                "options": [
+                  {
+                    "value": -5,
+                    "label": "nicht sicher"
+                  },
+                  {
+                    "value": -4
+                  },
+                  {
+                    "value": -3
+                  },
+                  {
+                    "value": -2
+                  },
+                  {
+                    "value": -1
+                  },
+                  {
+                    "value": 0
+                  },
+                  {
+                    "value": 1
+                  },
+                  {
+                    "value": 2
+                  },
+                  {
+                    "value": 3
+                  },
+                  {
+                    "value": 4
+                  },
+                  {
+                    "value": 5,
+                    "label": "vollkommen sicher"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "s0.text",
+              "module": "text",
+              "data": {
+                "paragraphs": [
+                  {
+                    "text": "B3) Was waren die wichtigsten Informationen, die deine Einschätzung beeinflusst haben? Bitte gib die für deine Einschätzung wichtigsten eingesehenen Unterlagen an."
+                  }
+                ]
+              }
+            },
+            {
+              "id": "4.1.v1.s1",
+              "module": "TextInput",
+              "type": "Input",
+              "data": {
+                "isOptional": false,
+                "name": "E_B3",
+                "rows": 3,
+                "label": null,
+                "placeholder": "hier eingeben..."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "prevId": 6,
+      "thisId": 7,
+      "nextId": null,
+      "labelNextPage": "Los geht's",
+      "settings": {
+        "allowMoveBack": false,
+        "allowProceed": true
+      },
+      "sections": [
+        {
+          "id": "s0",
+          "settings": {},
+          "elements": [
+            {
+              "id": "s0.headline",
+              "module": "headline",
+              "data": {
+                "text": "Fertig!"
+              }
+            },
+            {
+              "id": "s0.text",
+              "module": "text",
+              "data": {
+                "paragraphs": [
+                  {
+                    "text": "Vielen Dank für Ihre Mitarbeit..."
+                  }
+                ]
+              }
+            },
+            {
+              "id": "S1.slider1",
+              "module": "Slider",
+              "settings": {},
+              "data": {
+                "name": "01_slider",
+                "label": "RangeSlider",
+                "unit": "%",
+                "min": 0,
+                "max": 100,
+                "step": 1
+              }
+            },
+            {
+              "id": "S1.SelectFromRange1",
+              "module": "SelectFromRange",
+              "settings": {},
+              "data": {
+                "name": "0_SelectFromRange1",
+                "label": "Select From Range",
+                "options": [
+                  {
+                    "value": -5,
+                    "label": "not confident"
+                  },
+                  {
+                    "value": -4
+                  },
+                  {
+                    "value": -3
+                  },
+                  {
+                    "value": -2
+                  },
+                  {
+                    "value": -1
+                  },
+                  {
+                    "value": 0
+                  },
+                  {
+                    "value": 1
+                  },
+                  {
+                    "value": 2
+                  },
+                  {
+                    "value": 3
+                  },
+                  {
+                    "value": 4
+                  },
+                  {
+                    "value": 5,
+                    "label": "very confident"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "S1.Dropdown",
+              "module": "DropDown",
+              "settings": {},
+              "data": {
+                "name": "0_Dropdown1",
+                "label": "Drop it down",
+                "choices": "single",
+                "options": [
+                  {
+                    "label": "Assistent",
+                    "value": "Assistent"
+                  },
+                  {
+                    "label": "Senior",
+                    "value": "Senior"
+                  },
+                  {
+                    "label": "Manager",
+                    "value": "Manager"
+                  },
+                  {
+                    "label": "Senior Manager",
+                    "value": "Senior Manager"
+                  },
+                  {
+                    "label": "Executive Director",
+                    "value": "Executive Director"
+                  },
+                  {
+                    "label": "Partner",
+                    "value": "Partner"
+                  },
+                  {
+                    "label": "Other",
+                    "value": "Other"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
