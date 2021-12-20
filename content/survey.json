@@ -204,7 +204,7 @@
               "data": {
                 "name": "pdf-bilanz",
                 "title": "Bilanz",
-                "url": "/pdfs/bilanz.pdf",
+                "url": "./pdfs/bilanz.pdf",
                 "target": "_blank"
               }
             },
@@ -216,7 +216,7 @@
               "data": {
                 "name": "pdf-guV",
                 "title": "Gewinn- und Verlustrechnung",
-                "url": "/pdfs/bilanz.pdf",
+                "url": "./pdfs/bilanz.pdf",
                 "target": "_blank"
               }
             },
@@ -228,7 +228,7 @@
               "data": {
                 "name": "pdf-cashflowinfo",
                 "title": "Ausgewählte Cashflow-Informationen",
-                "url": "/pdfs/cashflowinfo.pdf",
+                "url": "./pdfs/cashflowinfo.pdf",
                 "target": "_blank"
               }
             }
