@@ -27,7 +27,7 @@
               "id": "p1s1.headline",
               "module": "headline",
               "data": {
-                "text": "Willkommen! 123"
+                "text": "Willkommen!"
               }
             },
             {
@@ -62,7 +62,7 @@
               "id": "p2s1.headline",
               "module": "headline",
               "data": {
-                "text": "Einführung in die Fallstudie und Prüfungsgegenstand!"
+                "text": "Einführung in die Fallstudie und Prüfungsgegenstand"
               }
             },
             {
@@ -221,7 +221,7 @@
               "module": "text",
               "data": {
                 "paragraphs": [
-                  "1.1. Basierend auf den zuvor dargestellten Informationen – wie hoch schätzt du die Wahrscheinlichkeit, dass Loschert innerhalb der 12 Monate nach dem Bilanzstichtag [b]weiter existieren kann[/b]? (0 - 100%)"
+                  "Basierend auf den zuvor dargestellten Informationen – wie hoch schätzt du die Wahrscheinlichkeit, dass Loschert innerhalb der 12 Monate nach dem Bilanzstichtag [b]weiter existieren kann[/b]? (0 - 100%)"
                 ]
               }
             },
@@ -243,7 +243,7 @@
               "module": "text",
               "data": {
                 "paragraphs": [
-                  "1.2. Wie sicher bist du dir bei deiner Schätzung dieser Wahrscheinlichkeit (-5 = überhaupt nicht sicher; 5 = vollkommen sicher)?"
+                  "Wie sicher bist du dir bei deiner Schätzung dieser Wahrscheinlichkeit (-5 = überhaupt nicht sicher; 5 = vollkommen sicher)?"
                 ]
               }
             },
@@ -257,7 +257,7 @@
                 "options": [
                   {
                     "value": -5,
-                    "label": "nicht[br]sicher"
+                    "label": "überhaupt[br]nicht[br]sicher"
                   },
                   {
                     "value": -4
@@ -497,7 +497,7 @@
                   "Zu keinem Zeitpunkt während dieser Aufgabe sollst du den 'Zurück'-Button im Browser verwenden. Nachdem du die angezeigte Unterlage gelesen hast, wirst du automatisch zur Suchmaske zurückgeführt und kannst weitere Suchbegriffe eingeben. Wenn du eine bereits angezeigte Information erneut ansehen möchtest, gib den zutreffenden Suchbegriff bitte erneut ein. ",
                   "Wenn du ausreichend Informationen gesammelt hast, um deine persönliche Einschätzung für die Partnerin abzugeben, klicke auf den Button 'Einschätzung abgeben'.",
                   "Wörter mit weniger als vier Buchstaben führen zu keinem Suchergebnis. Außerdem sind die Suchen darauf ausgelegt, spezifische Informationen zu finden. Sei daher bei der Eingabe deiner Suchbegriffe möglichst konkret. ",
-                  "Bitte denke daran, dass du bei der Suche nach Informationen alle besonderen Ereignisse und einmaligen Umstände, die für das Geschäftsjahr 2020 besonders sind (z. B. Auswirkungen von COVID-19), vernachlässigen sollst"
+                  "Bitte denke daran, dass du bei der Suche nach Informationen alle besonderen Ereignisse und einmaligen Umstände, die für das Geschäftsjahr 2020 besonders sind (z. B. Auswirkungen von COVID-19), vernachlässigen sollst."
                 ]
               }
             },
@@ -676,7 +676,7 @@
                 "options": [
                   {
                     "value": -5,
-                    "label": "nicht[br]sicher"
+                    "label": "überhaupt[br]nicht[br]sicher"
                   },
                   {
                     "value": -4
@@ -763,7 +763,7 @@
               "module": "text",
               "data": {
                 "paragraphs": [
-                  "Prüfe für sämtliche der nachfolgenden Eigenschaften an, ob diese auf dich zutreffen oder nicht zutreffen"
+                  "Prüfe für sämtliche der nachfolgenden Eigenschaften, ob diese auf dich zutreffen oder nicht zutreffen"
                 ]
               }
             }
@@ -797,8 +797,8 @@
               "module": "text",
               "data": {
                 "paragraphs": [
-                  "Wie sehr stimmst du dem Folgenden in Bezug auf die Aussagen zu, die du zu Beginn der Fallstudie formuliert hast?",
-                  "In den Aussagen gibt es Widersprüche:"
+                  "Wie sehr stimmst du dem Folgenden in Bezug auf die drei Aussagen zu, die du zu Beginn der Fallstudie (vor deiner ersten Suche) formulieren solltest?",
+                  "In den drei von mir formulierten notierten Aussagen gibt es Widersprüche:"
                 ]
               }
             },
@@ -1038,7 +1038,7 @@
                 "isOptional": false,
                 "name": "p9q4",
                 "rows": 1,
-                "label": "Bei [b]wie vielen Abschlussprüfungen[/b] hast du mitgewirkt, bei denen Zweifel an der Angemessenheit der Annahme der Unternehmensfortführung bestanden (unabhängig) von der Art des erteilten Bestätigungsvermerks)?",
+                "label": "Bei wie vielen Abschlussprüfungen hast du mitgewirkt, bei denen Zweifel an der Angemessenheit der Annahme der Unternehmensfortführung bestanden (unabhängig) von der Art des erteilten Bestätigungsvermerks)?",
                 "placeholder": "hier eingeben..."
               }
             },
@@ -1152,7 +1152,7 @@
               "module": "text",
               "data": {
                 "paragraphs": [
-                  "Vielen Dank für die Teilnahme an meiner Studie. Auf dieser Seite kannst du Kommentare hinterlassen..."
+                  "Vielen Dank für die Teilnahme an meiner Studie. Auf dieser Seite kannst du Kommentare hinterlassen."
                 ]
               }
             },
@@ -1197,7 +1197,7 @@
               "settings": {},
               "data": {
                 "name": "p10q3_dd",
-                "label": "Möchten Sie per e-mail informiert werden?",
+                "label": "Möchten Sie per E-Mail informiert werden?",
                 "choices": "single",
                 "options": [
                   {
