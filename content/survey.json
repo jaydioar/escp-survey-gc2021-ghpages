@@ -35,9 +35,9 @@
               "module": "text",
               "data": {
                 "paragraphs": [
-                  "Herzlichen Dank für deine Teilnahme an dieser Studie und für deine wertvolle Zeit. Ziel dieses Forschungsprojektes ist es, Erkenntnisse über die Entscheidungsfindung eines/einer (Abschluss-)Prüfers/Prüferin zu gewinnen. Daher werden dir während der Studie Fragen gestellt, wie du Informationen beurteilst.",
-                  "Bitte bearbeite die Fallstudie so gut du kannst und beantworte die Fragen bestmöglich. Es ist nicht notwendig, Quellen oder Hilfsmittel außerhalb des Fallmaterials zu benutzen, und daher solltest du auch kein zusätzliches Material bei der Bearbeitung verwenden. [b]Deine Antworten werden während der Bearbeitung der Fallstudie gespeichert.[/b] Klicke daher bitte [b]niemals auf den “Zurück”-Button im Browser, denn andernfalls sind deine Antworten nicht verwendbar.[/b]",
-                  "Da es in dieser Studie um den Entscheidungsprozess einer Einzelperson geht, ist es [b]wichtig, dass du unabhängig von anderen Personen arbeitest, die auch an dieser Studie teilnehmen.[/b] Deine Antworten werden mit anderen aggregiert und können nicht mehr mit deiner Person verknüpft werden. Wenn du über die Studienergebnisse informiert werden möchtest, gib bitte am Ende dieser Studie deine E-Mail-Adresse an."
+                  "Herzlichen Dank für deine Teilnahme an dieser Studie und für deine wertvolle Zeit. Ziel dieses Forschungsprojektes ist es, Erkenntnisse über die Entscheidungsfindung eines/einer (Abschluss-)Prüfers/Prüferin zu gewinnen. Daher werden dir gestellt, wie du Informationen beurteilst.",
+                  "Bitte bearbeite die Fallstudie so gut du kannst. Es ist nicht notwendig, Quellen oder Hilfsmittel außerhalb des Fallmaterials zu benutzen, und daher solltest du auch kein zusätzliches Material bei der Bearbeitung verwenden. [b]Deine Antworten werden während der Bearbeitung der Fallstudie gespeichert.[/b] Klicke daher bitte [b]niemals auf den “Zurück”-Button im Browser, denn andernfalls sind deine Antworten nicht verwendbar.[/b]",
+                  "Da es in dieser Studie um den Entscheidungsprozess einer Einzelperson geht, ist es [b]wichtig, dass du unabhängig von anderen Personen arbeitest.[/b] Deine Antworten werden mit anderen aggregiert und können nicht mehr mit deiner Person verknüpft werden. Wenn du über die Studienergebnisse informiert werden möchtest, gib bitte am Ende dieser Studie deine E-Mail-Adresse an."
                 ]
               }
             }
@@ -107,7 +107,7 @@
               "module": "text",
               "data": {
                 "paragraphs": [
-                  "Die Loschert Electronic AG ('Loschert') produziert und vertreibt hochwertige Lichttechnik und Komponenten für Automobile. Darüber hinaus bietet Loschert verschiedene Dienstleistungen und Reparaturlösungen in Erstausrüstungsqualität an. Loschert ist seit über 40 Jahren im Automobilkomponentengeschäft tätig und verfügt über erfahrenes Personal mit umfangreicher Expertise in allen dafür relevanten Bereichen. Die Aktien des Unternehmens befinden sich in Privatbesitz.",
+                  "Loschert produziert und vertreibt hochwertige Lichttechnik und Komponenten für Automobile. Darüber hinaus bietet Loschert verschiedene Dienstleistungen und Reparaturlösungen in Erstausrüstungsqualität an. Loschert ist seit über 40 Jahren im Automobilkomponentengeschäft tätig und verfügt über erfahrenes Personal mit umfangreicher Expertise in allen dafür relevanten Bereichen. Die Aktien des Unternehmens befinden sich in Privatbesitz.",
                   "Deine Wirtschaftsprüfungsgesellschaft hat in den letzten sechs Jahren die Abschlussprüfung von Loschert durchgeführt, und wurde auch in diesem Jahr mit der Abschlussprüfung für das am 31. Dezember 2020 endende Geschäftsjahr beauftragt. Deine Firma hat in den letzten sechs Jahren jeweils uneingeschränkte Bestätigungsvermerke erteilt.",
                   "Nach umfangreicher Prüfungsplanung wurde wie in den Vorjahren das Kontrollrisiko als niedrig beurteilt."
                 ]
@@ -153,8 +153,8 @@
                 "paragraphs": [
                   "Die Branche hat sich weiterhin rasant verändert. Du erkennst, dass im Laufe des Jahres viele neue Wettbewerber in den Markt kamen und mehrere Wettbewerber scheiterten.",
                   "Der Umsatz sank in diesem Jahr um 31% und die Handelsspanne von 43% auf 36%.",
-                  "Im Laufe des Jahres 2020 schloss Loschert den Verkauf einer seiner am wenigsten kosteneffizienten Fertigungsstätten zu Liquiditätszwecken ab",
-                  "Im Juni erwarb Loschert den Geschäftsbereich “autonomes Fahren” von einem seiner größten Wettbewerber (gegen Stammaktien und Barkomponente, finanziert durch Aufnahme langfristiger Schulden). Die Transaktion erhöhte die Anzahl der ausgegebenen Aktien um 33% und verdoppelte die langfristige Verschuldung des Unternehmens. Das Management geht davon aus, dass der erworbene Geschäftsbereich in Zukunft signifikante Umsatzerlöse erzielen wird"
+                  "Im Laufe des Jahres 2020 schloss Loschert den Verkauf einer seiner am wenigsten kosteneffizienten Fertigungsstätten zu Liquiditätszwecken ab.",
+                  "Im Juni erwarb Loschert den Geschäftsbereich “autonomes Fahren” von einem seiner größten Wettbewerber (gegen Stammaktien und Barkomponente, finanziert durch Aufnahme langfristiger Schulden). Die Transaktion erhöhte die Anzahl der ausgegebenen Aktien um 33% und verdoppelte die langfristige Verschuldung des Unternehmens. Das Management geht davon aus, dass der erworbene Geschäftsbereich in Zukunft signifikante Umsatzerlöse erzielen wird."
                 ]
               }
             },
@@ -406,7 +406,7 @@
                           "paragraphs": [
                             "Viele Menschen denken, dass Stehen anstrengend ist.",
                             "Viele Menschen denken, dass Dinge, die wir nicht leicht haben können, begehrenswert sind.",
-                            "Viele Menschen denken, dass unabhängige Wirtschaftsprüfer eine wichtige Rolle in Wirtschaft und Gesellschaft erfüllen"
+                            "Viele Menschen denken, dass unabhängige Wirtschaftsprüfer eine wichtige Rolle in Wirtschaft und Gesellschaft erfüllen."
                           ]
                         }
                       },
@@ -465,8 +465,8 @@
         "confirmMoveForward": {
           "title": "Möchten Sie jetzt Ihre Einschätzung abgeben?",
           "text": [
-            "Wenn sie jetzt auf 'Bestätigen' klicken dann können Sie nicht mehr zurück zur Suche.",
-            "Sind Sie sicher, dass Sie alle nötigen Daten recherchiert haben und jetzt Ihre Einschätzung abgeben wollen?"
+            "Wenn du jetzt auf 'Bestätigen' klickst, dann kannst du nicht mehr zurück zur Suche.",
+            "Bist du sicher, dass du alle nötigen Daten recherchiert hast und jetzt deine Einschätzung abgeben willst?"
           ],
           "buttons": {
             "accept": "Ja, weiter",
