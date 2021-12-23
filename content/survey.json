@@ -221,7 +221,7 @@
               "module": "text",
               "data": {
                 "paragraphs": [
-                  "Basierend auf den zuvor dargestellten Informationen – wie hoch schätzt du die Wahrscheinlichkeit, dass Loschert innerhalb der 12 Monate nach dem Bilanzstichtag [b]weiter existieren kann[/b]? (0 - 100%)"
+                  "Basierend auf den zuvor dargestellten Informationen – wie hoch schätzt du die Wahrscheinlichkeit, dass Loschert innerhalb der 12 Monate nach dem Bilanzstichtag [b]weiter existieren kann[/b]?"
                 ]
               }
             },
@@ -494,7 +494,7 @@
                   "Erinnere dich, dass du in der Rolle des/der verantwortlichen Prüfers/Prüferin bei der Abschlussprüfung der Loschert Electronic AG bist. Du wurdest nach Abschluss der Prüfungshandlungen vor Ort beim Mandaten dieser Prüfung zugeteilt, nachdem der zuvor zuständige Prüfer krankheitsbedingt ausgefallen ist.",
                   "Das Management von Loschert geht davon aus, dass die Annahme der Unternehmensfortführung angemessen ist, hat aber diesbezüglich noch keine detaillierte Stellungnahme zur Fortführungsannahme vorgelegt.",
                   "Bitte suche in den Arbeitspapieren nach Informationen, die du für die Beurteilung der Annahmen, die der Fortführungsprognose zu Grunde liegen, für relevant hältst. Dein Ziel ist es, dich auf die Beurteilung der vom Management noch vorzulegenden Stellungnahme zur Fortführungsannahme vorzubereiten. Nachdem du deinen Suchbegriff eingegeben hast, erhältst du jeweils eine Liste aller verfügbaren Unterlagen aus den Arbeitspapieren, die deinem Suchbegriff entsprechen. ",
-                  "Zu keinem Zeitpunkt während dieser Aufgabe sollst du den 'Zurück'-Button im Browser verwenden. Nachdem du die angezeigte Unterlage gelesen hast, wirst du automatisch zur Suchmaske zurückgeführt und kannst weitere Suchbegriffe eingeben. Wenn du eine bereits angezeigte Information erneut ansehen möchtest, gib den zutreffenden Suchbegriff bitte erneut ein. ",
+                  "Verwende zu keinem Zeitpunkt den 'Zurück'-Button im Browser. Nachdem du die angezeigte Unterlage gelesen hast, wirst du mit einem Klick auf den Button „Zurück zur Suchmaske“ zur Suchmaske zurückgeführt und kannst weitere Suchbegriffe eingeben. Wenn du eine bereits angezeigte Information erneut ansehen möchtest, gib den zutreffenden Suchbegriff bitte erneut ein. ",
                   "Wenn du ausreichend Informationen gesammelt hast, um deine persönliche Einschätzung für die Partnerin abzugeben, klicke auf den Button 'Einschätzung abgeben'.",
                   "Wörter mit weniger als vier Buchstaben führen zu keinem Suchergebnis. Außerdem sind die Suchen darauf ausgelegt, spezifische Informationen zu finden. Sei daher bei der Eingabe deiner Suchbegriffe möglichst konkret. ",
                   "Bitte denke daran, dass du bei der Suche nach Informationen alle besonderen Ereignisse und einmaligen Umstände, die für das Geschäftsjahr 2020 besonders sind (z. B. Auswirkungen von COVID-19), vernachlässigen sollst."
@@ -1026,7 +1026,7 @@
                 "isOptional": false,
                 "name": "p9q3",
                 "rows": 1,
-                "label": "Ungefähr wie viele Monate hast du in dieser Zeit in der Wirtschaftsprüfung (Audit) gearbeitet (einschließlich Praktika und Werkstudententätigkeiten)",
+                "label": "Ungefähr wie viele Monate hast du in dieser Zeit in der Wirtschaftsprüfung (Audit) gearbeitet (einschließlich Praktika und Werkstudententätigkeiten)?",
                 "placeholder": "hier eingeben..."
               }
             },
@@ -1093,7 +1093,7 @@
                 "isOptional": false,
                 "name": "p9q6",
                 "rows": 1,
-                "label": "Wie alt bist Du?",
+                "label": "Wie alt bist du?",
                 "placeholder": "hier eingeben..."
               }
             },
