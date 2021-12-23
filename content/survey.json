@@ -243,7 +243,7 @@
               "module": "text",
               "data": {
                 "paragraphs": [
-                  "Wie sicher bist du dir bei deiner Schätzung dieser Wahrscheinlichkeit (-5 = überhaupt nicht sicher; 5 = vollkommen sicher)?"
+                  "Wie sicher bist du dir bei deiner Schätzung dieser Wahrscheinlichkeit?"
                 ]
               }
             },
