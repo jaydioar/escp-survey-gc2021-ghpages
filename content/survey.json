@@ -2,7 +2,7 @@
   "meta": {
     "surveyId": "2022-going-concern",
     "title": "ESCP Survey - Going Concern (2022)",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   "general": {
     "settings": {
@@ -231,7 +231,7 @@
               "module": "Slider",
               "settings": {},
               "data": {
-                "name": "p3_q1",
+                "name": "q3:1",
                 "label": null,
                 "unit": "%",
                 "min": 0,
@@ -253,7 +253,7 @@
               "module": "SelectFromRange",
               "settings": {},
               "data": {
-                "name": "p3_q2",
+                "name": "q3:2",
                 "label": null,
                 "options": [
                   {
@@ -355,7 +355,7 @@
                         "type": "Input",
                         "data": {
                           "isOptional": false,
-                          "name": "p4v1_s1",
+                          "name": "q4:1_v1",
                           "rows": 3,
                           "label": "Aussage 1)",
                           "placeholder": "hier eingeben..."
@@ -367,7 +367,7 @@
                         "type": "Input",
                         "data": {
                           "isOptional": false,
-                          "name": "p4v1_s2",
+                          "name": "q4:2_v1",
                           "rows": 2,
                           "label": "Aussage 2)",
                           "placeholder": "hier eingeben..."
@@ -379,7 +379,7 @@
                         "type": "Input",
                         "data": {
                           "isOptional": false,
-                          "name": "p4v1_s3",
+                          "name": "q4:3_v1",
                           "rows": 2,
                           "label": "Aussage 3)",
                           "placeholder": "hier eingeben..."
@@ -417,7 +417,7 @@
                         "type": "Input",
                         "data": {
                           "isOptional": false,
-                          "name": "p4v2_s01",
+                          "name": "q4:1_v2",
                           "rows": 3,
                           "label": "Aussage 1)",
                           "placeholder": "hier eingeben..."
@@ -429,7 +429,7 @@
                         "type": "Input",
                         "data": {
                           "isOptional": false,
-                          "name": "p4v2_s02",
+                          "name": "q4:2_v2",
                           "rows": 2,
                           "label": "Aussage 2)",
                           "placeholder": "hier eingeben..."
@@ -441,7 +441,7 @@
                         "type": "Input",
                         "data": {
                           "isOptional": false,
-                          "name": "p4v2_s03",
+                          "name": "q4:3_v2",
                           "rows": 2,
                           "label": "Aussage 3)",
                           "placeholder": "hier eingeben..."
@@ -503,12 +503,12 @@
               }
             },
             {
-              "id": "p5s1.aside",
+              "id": "p5s2.aside",
               "module": "aside",
               "data": {},
               "elements": [
                 {
-                  "id": "p2s3.linkpdfBilanz",
+                  "id": "p5s2.linkpdfBilanz",
                   "module": "LinkThumbnail",
                   "settings": {},
                   "type": "Viewer",
@@ -520,7 +520,7 @@
                   }
                 },
                 {
-                  "id": "p2s3.linkpdfGuV",
+                  "id": "p5s2.linkpdfGuV",
                   "module": "LinkThumbnail",
                   "settings": {},
                   "type": "Viewer",
@@ -532,7 +532,7 @@
                   }
                 },
                 {
-                  "id": "p2s3.linkpdfcashflowinfo",
+                  "id": "p5s2.linkpdfcashflowinfo",
                   "module": "LinkThumbnail",
                   "settings": {},
                   "type": "Viewer",
@@ -546,12 +546,12 @@
               ]
             },
             {
-              "id": "S2.0.2.ResearchSimulation",
+              "id": "p5s3.ResearchSimulation",
               "module": "ResearchSimulation",
               "type": "Input",
               "data": {
                 "isOptional": false,
-                "name": "researchHistory",
+                "name": "q5:1_search_history",
                 "rows": 2,
                 "label": "Suchmaschine"
               }
@@ -595,7 +595,7 @@
               "module": "SelectFromRange",
               "settings": {},
               "data": {
-                "name": "E_A1",
+                "name": "q6:1",
                 "label": null,
                 "options": [
                   {
@@ -650,7 +650,7 @@
               "module": "Slider",
               "settings": {},
               "data": {
-                "name": "E_B1",
+                "name": "q6:2",
                 "label": null,
                 "unit": "%",
                 "min": 0,
@@ -672,7 +672,7 @@
               "module": "SelectFromRange",
               "settings": {},
               "data": {
-                "name": "E_B2",
+                "name": "q6:3",
                 "label": null,
                 "options": [
                   {
@@ -728,7 +728,7 @@
               "type": "Input",
               "data": {
                 "isOptional": false,
-                "name": "E_B3",
+                "name": "q6:4",
                 "rows": 3,
                 "label": null,
                 "placeholder": "hier eingeben..."
@@ -808,7 +808,7 @@
               "module": "SelectFromRange",
               "settings": {},
               "data": {
-                "name": "p8s1_r1",
+                "name": "q8:1",
                 "label": null,
                 "options": [
                   {
@@ -885,7 +885,7 @@
               "module": "SelectFromRange",
               "settings": {},
               "data": {
-                "name": "p8s1_r1",
+                "name": "q8:2",
                 "label": null,
                 "options": [
                   {
@@ -928,7 +928,7 @@
               "module": "SelectFromRange",
               "settings": {},
               "data": {
-                "name": "p8s1_r1",
+                "name": "q8:3",
                 "label": null,
                 "options": [
                   {
@@ -988,21 +988,37 @@
               "type": "Input",
               "settings": {},
               "data": {
-                "name": "0_Dropdown1",
+                "name": "q9:1",
                 "label": "Was ist deine aktuelle Position hier in diesem Unternehmen?",
                 "choices": "single",
                 "options": [
                   {
-                    "label": "pos1",
-                    "value": "m"
+                    "label": "Assistant",
+                    "value": "Assistant"
                   },
                   {
-                    "label": "pos2",
-                    "value": "w"
+                    "label": "Senior",
+                    "value": "Senior"
                   },
                   {
-                    "label": "diverse",
-                    "value": "d"
+                    "label": "Assistant Manager",
+                    "value": "Assistant Manager"
+                  },
+                  {
+                    "label": "Manager",
+                    "value": "Manager"
+                  },
+                  {
+                    "label": "Senior Manager",
+                    "value": "Senior Manager"
+                  },
+                  {
+                    "label": "Director",
+                    "value": "Director"
+                  },
+                  {
+                    "label": "Partner",
+                    "value": "Partner"
                   }
                 ]
               }
@@ -1013,7 +1029,7 @@
               "type": "Input",
               "data": {
                 "isOptional": false,
-                "name": "p9q2",
+                "name": "q9:2",
                 "rows": 1,
                 "label": "Wie viele Jahre arbeitest du schon hier in diesem Unternehmen?",
                 "placeholder": "hier eingeben..."
@@ -1025,7 +1041,7 @@
               "type": "Input",
               "data": {
                 "isOptional": false,
-                "name": "p9q3",
+                "name": "q9:3",
                 "rows": 1,
                 "label": "Ungefähr wie viele Monate hast du in dieser Zeit in der Wirtschaftsprüfung (Audit) gearbeitet (einschließlich Praktika und Werkstudententätigkeiten)?",
                 "placeholder": "hier eingeben..."
@@ -1037,14 +1053,14 @@
               "type": "Input",
               "data": {
                 "isOptional": false,
-                "name": "p9q4",
+                "name": "q9:4",
                 "rows": 1,
                 "label": "Bei wie vielen Abschlussprüfungen hast du mitgewirkt, bei denen Zweifel an der Angemessenheit der Annahme der Unternehmensfortführung bestanden (unabhängig) von der Art des erteilten Bestätigungsvermerks)?",
                 "placeholder": "hier eingeben..."
               }
             },
             {
-              "id": "p9q1.text",
+              "id": "p9q5.text",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -1057,7 +1073,7 @@
               "module": "SelectFromRange",
               "settings": {},
               "data": {
-                "name": "p9q5",
+                "name": "q9:5",
                 "label": null,
                 "options": [
                   {
@@ -1092,7 +1108,7 @@
               "type": "Input",
               "data": {
                 "isOptional": false,
-                "name": "p9q6",
+                "name": "q9:6",
                 "rows": 1,
                 "label": "Wie alt bist du?",
                 "placeholder": "hier eingeben..."
@@ -1104,7 +1120,7 @@
               "type": "Input",
               "settings": {},
               "data": {
-                "name": "0_Dropdown1",
+                "name": "q9:7",
                 "label": "Was ist dein Geschlecht?",
                 "choices": "single",
                 "options": [
@@ -1163,7 +1179,7 @@
               "type": "Input",
               "data": {
                 "isOptional": true,
-                "name": "p10q1",
+                "name": "q10:1",
                 "rows": 4,
                 "label": "Gibt es Informationen, die du gerne gehabt hättest, die dir in diesem Fall aber nicht zur Verfügung gestellt wurden?",
                 "placeholder": "hier eingeben..."
@@ -1175,7 +1191,7 @@
               "type": "Input",
               "data": {
                 "isOptional": true,
-                "name": "p10q2",
+                "name": "q10:2",
                 "rows": 4,
                 "label": "Hast du sonstige Anmerkungen zu diesem Fall?",
                 "placeholder": "hier eingeben..."
@@ -1197,7 +1213,7 @@
               "type": "Input",
               "settings": {},
               "data": {
-                "name": "p10q3_dd",
+                "name": "q10:3",
                 "label": "Möchten Sie per E-Mail informiert werden?",
                 "choices": "single",
                 "options": [
