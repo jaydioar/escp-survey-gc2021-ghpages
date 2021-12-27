@@ -160,7 +160,7 @@
               }
             },
             {
-              "id": "p2s3.text",
+              "id": "p2s3.text2",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -591,7 +591,7 @@
               }
             },
             {
-              "id": "S1.SelectFromRange1",
+              "id": "S0.q6:1",
               "module": "SelectFromRange",
               "settings": {},
               "data": {
@@ -637,7 +637,7 @@
               }
             },
             {
-              "id": "s0.text",
+              "id": "s0.text_slider",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -646,7 +646,7 @@
               }
             },
             {
-              "id": "S1.slider1",
+              "id": "S0.q6:2",
               "module": "Slider",
               "settings": {},
               "data": {
@@ -659,7 +659,7 @@
               }
             },
             {
-              "id": "s0.text",
+              "id": "s0.q6:3.pretext",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -668,7 +668,7 @@
               }
             },
             {
-              "id": "S1.SelectFromRange1",
+              "id": "s0.q6:3.input",
               "module": "SelectFromRange",
               "settings": {},
               "data": {
@@ -714,7 +714,7 @@
               }
             },
             {
-              "id": "s0.text",
+              "id": "v1.text",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -794,7 +794,7 @@
               }
             },
             {
-              "id": "p8s1.text",
+              "id": "q8:1.pretext",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -804,7 +804,7 @@
               }
             },
             {
-              "id": "p8s1.Range1",
+              "id": "q8:1.input",
               "module": "SelectFromRange",
               "settings": {},
               "data": {
@@ -856,14 +856,14 @@
           "settings": {},
           "elements": [
             {
-              "id": "p8s1.headline",
+              "id": "p8s2.headline",
               "module": "headline",
               "data": {
                 "text": "Fragen zum Fall"
               }
             },
             {
-              "id": "p8s1.text",
+              "id": "p8s2.text",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -872,7 +872,7 @@
               }
             },
             {
-              "id": "p8s1.q1text",
+              "id": "q8:2.pretext",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -915,7 +915,7 @@
               }
             },
             {
-              "id": "p8s1.q2text",
+              "id": "q8:3.pretext",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -924,7 +924,7 @@
               }
             },
             {
-              "id": "p8s1.Range1",
+              "id": "q8:3.input",
               "module": "SelectFromRange",
               "settings": {},
               "data": {
