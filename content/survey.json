@@ -1,5 +1,6 @@
 {
   "meta": {
+    "surveyId": "2022-going-concern",
     "title": "ESCP Survey - Going Concern (2022)",
     "version": "0.2.0"
   },
@@ -27,7 +28,7 @@
               "id": "p1s1.headline",
               "module": "headline",
               "data": {
-                "text": "Willkommen! 123"
+                "text": "Willkommen!"
               }
             },
             {
@@ -35,9 +36,9 @@
               "module": "text",
               "data": {
                 "paragraphs": [
-                  "Herzlichen Dank für deine Teilnahme an dieser Studie und für deine wertvolle Zeit. Ziel dieses Forschungsprojektes ist es, Erkenntnisse über die Entscheidungsfindung eines/einer (Abschluss-)Prüfers/Prüferin zu gewinnen. Daher werden dir während der Studie Fragen gestellt, wie du Informationen beurteilst.",
-                  "Bitte bearbeite die Fallstudie so gut du kannst und beantworte die Fragen bestmöglich. Es ist nicht notwendig, Quellen oder Hilfsmittel außerhalb des Fallmaterials zu benutzen, und daher solltest du auch kein zusätzliches Material bei der Bearbeitung verwenden. [b]Deine Antworten werden während der Bearbeitung der Fallstudie gespeichert.[/b] Klicke daher bitte [b]niemals auf den “Zurück”-Button im Browser, denn andernfalls sind deine Antworten nicht verwendbar.[/b]",
-                  "Da es in dieser Studie um den Entscheidungsprozess einer Einzelperson geht, ist es [b]wichtig, dass du unabhängig von anderen Personen arbeitest, die auch an dieser Studie teilnehmen.[/b] Deine Antworten werden mit anderen aggregiert und können nicht mehr mit deiner Person verknüpft werden. Wenn du über die Studienergebnisse informiert werden möchtest, gib bitte am Ende dieser Studie deine E-Mail-Adresse an."
+                  "Herzlichen Dank für deine Teilnahme an dieser Studie und für deine wertvolle Zeit. Ziel dieses Forschungsprojektes ist es, Erkenntnisse über die Entscheidungsfindung eines/einer (Abschluss-)Prüfers/Prüferin zu gewinnen. Daher werden dir Fragen gestellt, wie du Informationen beurteilst.",
+                  "Bitte bearbeite die Fallstudie so gut du kannst. Es ist nicht notwendig, Quellen oder Hilfsmittel außerhalb des Fallmaterials zu benutzen, und daher solltest du auch kein zusätzliches Material bei der Bearbeitung verwenden. [b]Deine Antworten werden während der Bearbeitung der Fallstudie gespeichert.[/b] Klicke daher bitte [b]niemals auf den “Zurück”-Button im Browser, denn andernfalls sind deine Antworten nicht verwendbar.[/b]",
+                  "Da es in dieser Studie um den Entscheidungsprozess einer Einzelperson geht, ist es [b]wichtig, dass du unabhängig von anderen Personen arbeitest.[/b] Deine Antworten werden mit anderen aggregiert und können nicht mehr mit deiner Person verknüpft werden. Wenn du über die Studienergebnisse informiert werden möchtest, gib bitte am Ende dieser Studie deine E-Mail-Adresse an."
                 ]
               }
             }
@@ -62,7 +63,7 @@
               "id": "p2s1.headline",
               "module": "headline",
               "data": {
-                "text": "Einführung in die Fallstudie und Prüfungsgegenstand!"
+                "text": "Einführung in die Fallstudie und Prüfungsgegenstand"
               }
             },
             {
@@ -107,7 +108,7 @@
               "module": "text",
               "data": {
                 "paragraphs": [
-                  "Die Loschert Electronic AG ('Loschert') produziert und vertreibt hochwertige Lichttechnik und Komponenten für Automobile. Darüber hinaus bietet Loschert verschiedene Dienstleistungen und Reparaturlösungen in Erstausrüstungsqualität an. Loschert ist seit über 40 Jahren im Automobilkomponentengeschäft tätig und verfügt über erfahrenes Personal mit umfangreicher Expertise in allen dafür relevanten Bereichen. Die Aktien des Unternehmens befinden sich in Privatbesitz.",
+                  "Loschert produziert und vertreibt hochwertige Lichttechnik und Komponenten für Automobile. Darüber hinaus bietet Loschert verschiedene Dienstleistungen und Reparaturlösungen in Erstausrüstungsqualität an. Loschert ist seit über 40 Jahren im Automobilkomponentengeschäft tätig und verfügt über erfahrenes Personal mit umfangreicher Expertise in allen dafür relevanten Bereichen. Die Aktien des Unternehmens befinden sich in Privatbesitz.",
                   "Deine Wirtschaftsprüfungsgesellschaft hat in den letzten sechs Jahren die Abschlussprüfung von Loschert durchgeführt, und wurde auch in diesem Jahr mit der Abschlussprüfung für das am 31. Dezember 2020 endende Geschäftsjahr beauftragt. Deine Firma hat in den letzten sechs Jahren jeweils uneingeschränkte Bestätigungsvermerke erteilt.",
                   "Nach umfangreicher Prüfungsplanung wurde wie in den Vorjahren das Kontrollrisiko als niedrig beurteilt."
                 ]
@@ -153,8 +154,8 @@
                 "paragraphs": [
                   "Die Branche hat sich weiterhin rasant verändert. Du erkennst, dass im Laufe des Jahres viele neue Wettbewerber in den Markt kamen und mehrere Wettbewerber scheiterten.",
                   "Der Umsatz sank in diesem Jahr um 31% und die Handelsspanne von 43% auf 36%.",
-                  "Im Laufe des Jahres 2020 schloss Loschert den Verkauf einer seiner am wenigsten kosteneffizienten Fertigungsstätten zu Liquiditätszwecken ab",
-                  "Im Juni erwarb Loschert den Geschäftsbereich “autonomes Fahren” von einem seiner größten Wettbewerber (gegen Stammaktien und Barkomponente, finanziert durch Aufnahme langfristiger Schulden). Die Transaktion erhöhte die Anzahl der ausgegebenen Aktien um 33% und verdoppelte die langfristige Verschuldung des Unternehmens. Das Management geht davon aus, dass der erworbene Geschäftsbereich in Zukunft signifikante Umsatzerlöse erzielen wird"
+                  "Im Laufe des Jahres 2020 schloss Loschert den Verkauf einer seiner am wenigsten kosteneffizienten Fertigungsstätten zu Liquiditätszwecken ab.",
+                  "Im Juni erwarb Loschert den Geschäftsbereich “autonomes Fahren” von einem seiner größten Wettbewerber (gegen Stammaktien und Barkomponente, finanziert durch Aufnahme langfristiger Schulden). Die Transaktion erhöhte die Anzahl der ausgegebenen Aktien um 33% und verdoppelte die langfristige Verschuldung des Unternehmens. Das Management geht davon aus, dass der erworbene Geschäftsbereich in Zukunft signifikante Umsatzerlöse erzielen wird."
                 ]
               }
             },
@@ -221,7 +222,7 @@
               "module": "text",
               "data": {
                 "paragraphs": [
-                  "1.1. Basierend auf den zuvor dargestellten Informationen – wie hoch schätzt du die Wahrscheinlichkeit, dass Loschert innerhalb der 12 Monate nach dem Bilanzstichtag [b]weiter existieren kann[/b]? (0 - 100%)"
+                  "Basierend auf den zuvor dargestellten Informationen – wie hoch schätzt du die Wahrscheinlichkeit, dass Loschert innerhalb der 12 Monate nach dem Bilanzstichtag [b]weiter existieren kann[/b]?"
                 ]
               }
             },
@@ -243,7 +244,7 @@
               "module": "text",
               "data": {
                 "paragraphs": [
-                  "1.2. Wie sicher bist du dir bei deiner Schätzung dieser Wahrscheinlichkeit (-5 = überhaupt nicht sicher; 5 = vollkommen sicher)?"
+                  "Wie sicher bist du dir bei deiner Schätzung dieser Wahrscheinlichkeit?"
                 ]
               }
             },
@@ -257,7 +258,7 @@
                 "options": [
                   {
                     "value": -5,
-                    "label": "nicht[br]sicher"
+                    "label": "überhaupt[br]nicht[br]sicher"
                   },
                   {
                     "value": -4
@@ -406,7 +407,7 @@
                           "paragraphs": [
                             "Viele Menschen denken, dass Stehen anstrengend ist.",
                             "Viele Menschen denken, dass Dinge, die wir nicht leicht haben können, begehrenswert sind.",
-                            "Viele Menschen denken, dass unabhängige Wirtschaftsprüfer eine wichtige Rolle in Wirtschaft und Gesellschaft erfüllen"
+                            "Viele Menschen denken, dass unabhängige Wirtschaftsprüfer eine wichtige Rolle in Wirtschaft und Gesellschaft erfüllen."
                           ]
                         }
                       },
@@ -465,8 +466,8 @@
         "confirmMoveForward": {
           "title": "Möchten Sie jetzt Ihre Einschätzung abgeben?",
           "text": [
-            "Wenn sie jetzt auf 'Bestätigen' klicken dann können Sie nicht mehr zurück zur Suche.",
-            "Sind Sie sicher, dass Sie alle nötigen Daten recherchiert haben und jetzt Ihre Einschätzung abgeben wollen?"
+            "Wenn du jetzt auf 'Bestätigen' klickst, dann kannst du nicht mehr zurück zur Suche.",
+            "Bist du sicher, dass du alle nötigen Daten recherchiert hast und jetzt deine Einschätzung abgeben willst?"
           ],
           "buttons": {
             "accept": "Ja, weiter",
@@ -494,10 +495,10 @@
                   "Erinnere dich, dass du in der Rolle des/der verantwortlichen Prüfers/Prüferin bei der Abschlussprüfung der Loschert Electronic AG bist. Du wurdest nach Abschluss der Prüfungshandlungen vor Ort beim Mandaten dieser Prüfung zugeteilt, nachdem der zuvor zuständige Prüfer krankheitsbedingt ausgefallen ist.",
                   "Das Management von Loschert geht davon aus, dass die Annahme der Unternehmensfortführung angemessen ist, hat aber diesbezüglich noch keine detaillierte Stellungnahme zur Fortführungsannahme vorgelegt.",
                   "Bitte suche in den Arbeitspapieren nach Informationen, die du für die Beurteilung der Annahmen, die der Fortführungsprognose zu Grunde liegen, für relevant hältst. Dein Ziel ist es, dich auf die Beurteilung der vom Management noch vorzulegenden Stellungnahme zur Fortführungsannahme vorzubereiten. Nachdem du deinen Suchbegriff eingegeben hast, erhältst du jeweils eine Liste aller verfügbaren Unterlagen aus den Arbeitspapieren, die deinem Suchbegriff entsprechen. ",
-                  "Zu keinem Zeitpunkt während dieser Aufgabe sollst du den 'Zurück'-Button im Browser verwenden. Nachdem du die angezeigte Unterlage gelesen hast, wirst du automatisch zur Suchmaske zurückgeführt und kannst weitere Suchbegriffe eingeben. Wenn du eine bereits angezeigte Information erneut ansehen möchtest, gib den zutreffenden Suchbegriff bitte erneut ein. ",
+                  "Verwende zu keinem Zeitpunkt den 'Zurück'-Button im Browser. Nachdem du die angezeigte Unterlage gelesen hast, wirst du mit einem Klick auf den Button „Zurück zur Suchmaske“ zur Suchmaske zurückgeführt und kannst weitere Suchbegriffe eingeben. Wenn du eine bereits angezeigte Information erneut ansehen möchtest, gib den zutreffenden Suchbegriff bitte erneut ein. ",
                   "Wenn du ausreichend Informationen gesammelt hast, um deine persönliche Einschätzung für die Partnerin abzugeben, klicke auf den Button 'Einschätzung abgeben'.",
                   "Wörter mit weniger als vier Buchstaben führen zu keinem Suchergebnis. Außerdem sind die Suchen darauf ausgelegt, spezifische Informationen zu finden. Sei daher bei der Eingabe deiner Suchbegriffe möglichst konkret. ",
-                  "Bitte denke daran, dass du bei der Suche nach Informationen alle besonderen Ereignisse und einmaligen Umstände, die für das Geschäftsjahr 2020 besonders sind (z. B. Auswirkungen von COVID-19), vernachlässigen sollst"
+                  "Bitte denke daran, dass du bei der Suche nach Informationen alle besonderen Ereignisse und einmaligen Umstände, die für das Geschäftsjahr 2020 besonders sind (z. B. Auswirkungen von COVID-19), vernachlässigen sollst."
                 ]
               }
             },
@@ -676,7 +677,7 @@
                 "options": [
                   {
                     "value": -5,
-                    "label": "nicht[br]sicher"
+                    "label": "überhaupt[br]nicht[br]sicher"
                   },
                   {
                     "value": -4
@@ -763,7 +764,7 @@
               "module": "text",
               "data": {
                 "paragraphs": [
-                  "Prüfe für sämtliche der nachfolgenden Eigenschaften an, ob diese auf dich zutreffen oder nicht zutreffen"
+                  "Prüfe für sämtliche der nachfolgenden Eigenschaften, ob diese auf dich zutreffen oder nicht zutreffen"
                 ]
               }
             }
@@ -797,8 +798,8 @@
               "module": "text",
               "data": {
                 "paragraphs": [
-                  "Wie sehr stimmst du dem Folgenden in Bezug auf die Aussagen zu, die du zu Beginn der Fallstudie formuliert hast?",
-                  "In den Aussagen gibt es Widersprüche:"
+                  "Wie sehr stimmst du dem Folgenden in Bezug auf die drei Aussagen zu, die du zu Beginn der Fallstudie (vor deiner ersten Suche) formulieren solltest?",
+                  "In den drei von mir formulierten notierten Aussagen gibt es Widersprüche:"
                 ]
               }
             },
@@ -1026,7 +1027,7 @@
                 "isOptional": false,
                 "name": "p9q3",
                 "rows": 1,
-                "label": "Ungefähr wie viele Monate hast du in dieser Zeit in der Wirtschaftsprüfung (Audit) gearbeitet (einschließlich Praktika und Werkstudententätigkeiten)",
+                "label": "Ungefähr wie viele Monate hast du in dieser Zeit in der Wirtschaftsprüfung (Audit) gearbeitet (einschließlich Praktika und Werkstudententätigkeiten)?",
                 "placeholder": "hier eingeben..."
               }
             },
@@ -1038,7 +1039,7 @@
                 "isOptional": false,
                 "name": "p9q4",
                 "rows": 1,
-                "label": "Bei [b]wie vielen Abschlussprüfungen[/b] hast du mitgewirkt, bei denen Zweifel an der Angemessenheit der Annahme der Unternehmensfortführung bestanden (unabhängig) von der Art des erteilten Bestätigungsvermerks)?",
+                "label": "Bei wie vielen Abschlussprüfungen hast du mitgewirkt, bei denen Zweifel an der Angemessenheit der Annahme der Unternehmensfortführung bestanden (unabhängig) von der Art des erteilten Bestätigungsvermerks)?",
                 "placeholder": "hier eingeben..."
               }
             },
@@ -1093,7 +1094,7 @@
                 "isOptional": false,
                 "name": "p9q6",
                 "rows": 1,
-                "label": "Wie alt bist Du?",
+                "label": "Wie alt bist du?",
                 "placeholder": "hier eingeben..."
               }
             },
@@ -1152,7 +1153,7 @@
               "module": "text",
               "data": {
                 "paragraphs": [
-                  "Vielen Dank für die Teilnahme an meiner Studie. Auf dieser Seite kannst du Kommentare hinterlassen..."
+                  "Vielen Dank für die Teilnahme an meiner Studie. Auf dieser Seite kannst du Kommentare hinterlassen."
                 ]
               }
             },
@@ -1197,7 +1198,7 @@
               "settings": {},
               "data": {
                 "name": "p10q3_dd",
-                "label": "Möchten Sie per e-mail informiert werden?",
+                "label": "Möchten Sie per E-Mail informiert werden?",
                 "choices": "single",
                 "options": [
                   {
