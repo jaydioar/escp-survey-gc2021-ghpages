@@ -12,6 +12,199 @@
   "pages": [
     {
       "prevId": null,
+      "thisId": 0,
+      "nextId": 1,
+      "labelNextPage": "Weiter",
+      "settings": {
+        "allowMoveBack": false,
+        "allowProceed": true
+      },
+      "sections": [
+        {
+          "id": "s0",
+          "settings": {},
+          "elements": [
+            {
+              "id": "s0.headline",
+              "module": "headline",
+              "data": {
+                "text": "Selbsteinschätzung"
+              }
+            },
+            {
+              "id": "s0.text",
+              "module": "text",
+              "data": {
+                "paragraphs": [
+                  "Prüfe für [b]sämtliche[/b] der nachfolgenden Eigenschaften, ob diese auf dich zutreffen oder nicht zutreffen"
+                ]
+              }
+            },
+            {
+              "id": "s0.selfassess",
+              "module": "selfassessment",
+              "data": {
+                "name": "q0:1",
+                "attributes": [
+                  {
+                    "name": "01-suspicious",
+                    "label": "(-) misstrauisch",
+                    "trend": "neg"
+                  },
+                  {
+                    "name": "02-sincere",
+                    "label": "(-) ehrlich",
+                    "trend": "neg"
+                  },
+                  {
+                    "name": "03-affected",
+                    "label": "(-) künstlich",
+                    "trend": "neg"
+                  },
+                  {
+                    "name": "04-egoistical",
+                    "label": "(+) egoistisch",
+                    "trend": "pos"
+                  },
+                  {
+                    "name": "05-honest",
+                    "label": "(-) aufrichtig",
+                    "trend": "neg"
+                  },
+                  {
+                    "name": "06-resourceful",
+                    "label": "(+) einfallsreich",
+                    "trend": "pos"
+                  },
+                  {
+                    "name": "07-insightful",
+                    "label": "(+) einsichtsvoll",
+                    "trend": "pos"
+                  },
+                  {
+                    "name": "08-inventive",
+                    "label": "(+) erfinderisch",
+                    "trend": "pos"
+                  },
+                  {
+                    "name": "09-humorous",
+                    "label": "(+) humorvoll",
+                    "trend": "pos"
+                  },
+                  {
+                    "name": "10-individualistic",
+                    "label": "(+) individualistisch",
+                    "trend": "pos"
+                  },
+                  {
+                    "name": "11-intelligent",
+                    "label": "(+) intelligent",
+                    "trend": "pos"
+                  },
+                  {
+                    "name": "12-clever",
+                    "label": "(+) klug",
+                    "trend": "pos"
+                  },
+                  {
+                    "name": "13-capable",
+                    "label": "(+) fähig",
+                    "trend": "pos"
+                  },
+                  {
+                    "name": "14-conservative",
+                    "label": "(-) konservativ",
+                    "trend": "neg"
+                  },
+                  {
+                    "name": "15-conventional",
+                    "label": "(-) konventionell",
+                    "trend": "neg"
+                  },
+                  {
+                    "name": "16-reflective",
+                    "label": "(+) nachdenklich",
+                    "trend": "pos"
+                  },
+                  {
+                    "name": "17-commonplace",
+                    "label": "(-) gewöhnlich",
+                    "trend": "neg"
+                  },
+                  {
+                    "name": "18-original",
+                    "label": "(+) originell",
+                    "trend": "pos"
+                  },
+                  {
+                    "name": "19-selfconfident",
+                    "label": "(+) selbstbewusst",
+                    "trend": "pos"
+                  },
+                  {
+                    "name": "20-sexy",
+                    "label": "(+) sexy",
+                    "trend": "pos"
+                  },
+                  {
+                    "name": "21-informal",
+                    "label": "(+) ungezwungen",
+                    "trend": "pos"
+                  },
+                  {
+                    "name": "22-unconventional",
+                    "label": "(+) unkonventionell",
+                    "trend": "pos"
+                  },
+                  {
+                    "name": "23-submissive",
+                    "label": "(-) unterordnend",
+                    "trend": "neg"
+                  },
+                  {
+                    "name": "24-dissatisfied",
+                    "label": "(-) unzufrieden",
+                    "trend": "neg"
+                  },
+                  {
+                    "name": "25-snobbish",
+                    "label": "(+) versnobt",
+                    "trend": "pos"
+                  },
+                  {
+                    "name": "26-interest-wide",
+                    "label": "(+) vielseitig interessiert",
+                    "trend": "pos"
+                  },
+                  {
+                    "name": "27-cautious",
+                    "label": "(-) vorsichtig",
+                    "trend": "neg"
+                  },
+                  {
+                    "name": "28-narrow-interested",
+                    "label": "(-) wenige Interessen",
+                    "trend": "neg"
+                  },
+                  {
+                    "name": "29-well-mannered",
+                    "label": "(-) wohl erzogen",
+                    "trend": "neg"
+                  },
+                  {
+                    "name": "30-confident",
+                    "label": "(+) zuversichtlich",
+                    "trend": "pos"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "prevId": 0,
       "thisId": 1,
       "nextId": 2,
       "labelNextPage": "Los geht's",
