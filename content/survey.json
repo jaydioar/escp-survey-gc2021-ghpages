@@ -2,7 +2,7 @@
   "meta": {
     "surveyId": "2022-going-concern",
     "title": "ESCP Survey - Going Concern (2022)",
-    "version": "0.4.0"
+    "version": "0.5.1"
   },
   "general": {
     "settings": {
@@ -26,6 +26,7 @@
           "elements": [
             {
               "id": "p1s1.headline",
+              "type": "text",
               "module": "headline",
               "data": {
                 "text": "Willkommen!"
@@ -33,6 +34,7 @@
             },
             {
               "id": "p1s1.text",
+              "type": "text",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -52,7 +54,8 @@
       "nextId": 3,
       "labelNextPage": "Weiter",
       "settings": {
-        "allowMoveBack": true
+        "allowMoveBack": true,
+        "allowProceed": true
       },
       "sections": [
         {
@@ -124,22 +127,25 @@
       "nextId": 4,
       "labelNextPage": "Weiter",
       "settings": {
-        "allowMoveBack": true
+        "allowMoveBack": true,
+        "allowProceed": false
       },
       "sections": [
         {
-          "id": "p2s3",
+          "id": "p3s1",
           "settings": {},
           "elements": [
             {
-              "id": "p2s3.headline",
+              "id": "p3s1.headline",
+              "type": "text",
               "module": "headline",
               "data": {
                 "text": "Hintergrundinformationen für die Prüfung 2020"
               }
             },
             {
-              "id": "p2s3.text",
+              "id": "p3s1.text",
+              "type": "text",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -148,7 +154,8 @@
               }
             },
             {
-              "id": "p2s3.bulletpoints",
+              "id": "p3s1.bulletpoints",
+              "type": "text",
               "module": "bulletlist",
               "data": {
                 "paragraphs": [
@@ -160,7 +167,7 @@
               }
             },
             {
-              "id": "p2s3.text2",
+              "id": "p3s4.text2",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -169,10 +176,10 @@
               }
             },
             {
-              "id": "p2s3.linkpdfBilanz",
+              "id": "p3s1.linkpdfBilanz",
+              "type": "link",
               "module": "LinkThumbnail",
               "settings": {},
-              "type": "Viewer",
               "data": {
                 "name": "pdf-bilanz",
                 "title": "Bilanz",
@@ -181,10 +188,10 @@
               }
             },
             {
-              "id": "p2s3.linkpdfGuV",
+              "id": "p3s1.linkpdfGuV",
+              "type": "link",
               "module": "LinkThumbnail",
               "settings": {},
-              "type": "Viewer",
               "data": {
                 "name": "pdf-guV",
                 "title": "Gewinn- und Verlustrechnung",
@@ -193,10 +200,10 @@
               }
             },
             {
-              "id": "p2s3.linkpdfcashflowinfo",
+              "id": "p3s1.linkpdfcashflowinfo",
+              "type": "link",
               "module": "LinkThumbnail",
               "settings": {},
-              "type": "Viewer",
               "data": {
                 "name": "pdf-cashflowinfo",
                 "title": "Ausgewählte Cashflow-Informationen",
@@ -207,18 +214,20 @@
           ]
         },
         {
-          "id": "p3s1",
+          "id": "p3s2",
           "settings": {},
           "elements": [
             {
-              "id": "p3s1.intro",
+              "id": "p3s2.intro",
+              "type": "text",
               "module": "headline",
               "data": {
                 "text": "Fragen zum vorläufigen Jahresabschluss"
               }
             },
             {
-              "id": "p3s1.q1",
+              "id": "p3s2.q1text",
+              "type": "text",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -227,10 +236,12 @@
               }
             },
             {
-              "id": "p3s1.slider",
+              "id": "p3s2.slider",
+              "type": "input",
               "module": "Slider",
               "settings": {},
               "data": {
+                "isOptional": false,
                 "name": "q3:1",
                 "label": null,
                 "unit": "%",
@@ -250,9 +261,11 @@
             },
             {
               "id": "p3s1.range",
+              "type": "input",
               "module": "SelectFromRange",
               "settings": {},
               "data": {
+                "isOptional": false,
                 "name": "q3:2",
                 "label": null,
                 "options": [
@@ -304,7 +317,8 @@
       "nextId": 5,
       "labelNextPage": "Weiter",
       "settings": {
-        "allowMoveBack": false
+        "allowMoveBack": false,
+        "allowProceed": true
       },
       "sections": [
         {
@@ -313,6 +327,7 @@
           "elements": [
             {
               "id": "p4s1.intro",
+              "type": "text",
               "module": "headline",
               "data": {
                 "text": "Aufgabenstellung"
@@ -320,9 +335,11 @@
             },
             {
               "id": "p4s1.intervention",
+              "type": "input",
               "module": "pickversion",
               "data": {
                 "name": "p4_version",
+                "isOptional": false,
                 "versions": [
                   {
                     "id": "v1",
@@ -330,6 +347,7 @@
                     "elements": [
                       {
                         "id": "p4v1.text",
+                        "type": "text",
                         "module": "text",
                         "data": {
                           "paragraphs": [
@@ -340,6 +358,7 @@
                       },
                       {
                         "id": "p4v1.bulletpoints",
+                        "type": "text",
                         "module": "bulletlist",
                         "data": {
                           "paragraphs": [
@@ -352,7 +371,7 @@
                       {
                         "id": "p4v1.s1",
                         "module": "TextInput",
-                        "type": "Input",
+                        "type": "input",
                         "data": {
                           "isOptional": false,
                           "name": "q4:1_v1",
@@ -364,11 +383,11 @@
                       {
                         "id": "p4v1.s2",
                         "module": "TextInput",
-                        "type": "Input",
+                        "type": "input",
                         "data": {
                           "isOptional": false,
                           "name": "q4:2_v1",
-                          "rows": 2,
+                          "rows": 3,
                           "label": "Aussage 2)",
                           "placeholder": "hier eingeben..."
                         }
@@ -376,11 +395,11 @@
                       {
                         "id": "p4v1.s3",
                         "module": "TextInput",
-                        "type": "Input",
+                        "type": "input",
                         "data": {
                           "isOptional": false,
                           "name": "q4:3_v1",
-                          "rows": 2,
+                          "rows": 3,
                           "label": "Aussage 3)",
                           "placeholder": "hier eingeben..."
                         }
@@ -393,6 +412,7 @@
                     "elements": [
                       {
                         "id": "p4v2.text",
+                        "type": "text",
                         "module": "text",
                         "data": {
                           "paragraphs": [
@@ -402,6 +422,7 @@
                       },
                       {
                         "id": "p4v2.bulletpoints",
+                        "type": "text",
                         "module": "bulletlist",
                         "data": {
                           "paragraphs": [
@@ -414,7 +435,7 @@
                       {
                         "id": "p4v2.s1",
                         "module": "TextInput",
-                        "type": "Input",
+                        "type": "input",
                         "data": {
                           "isOptional": false,
                           "name": "q4:1_v2",
@@ -426,11 +447,11 @@
                       {
                         "id": "p4v2.s2",
                         "module": "TextInput",
-                        "type": "Input",
+                        "type": "input",
                         "data": {
                           "isOptional": false,
                           "name": "q4:2_v2",
-                          "rows": 2,
+                          "rows": 3,
                           "label": "Aussage 2)",
                           "placeholder": "hier eingeben..."
                         }
@@ -438,11 +459,11 @@
                       {
                         "id": "p4v2.a3",
                         "module": "TextInput",
-                        "type": "Input",
+                        "type": "input",
                         "data": {
                           "isOptional": false,
                           "name": "q4:3_v2",
-                          "rows": 2,
+                          "rows": 3,
                           "label": "Aussage 3)",
                           "placeholder": "hier eingeben..."
                         }
@@ -463,6 +484,7 @@
       "labelNextPage": "Einschätzung abgeben",
       "settings": {
         "allowMoveBack": false,
+        "allowProceed": false,
         "confirmMoveForward": {
           "title": "Möchten Sie jetzt Ihre Einschätzung abgeben?",
           "text": [
@@ -548,7 +570,7 @@
             {
               "id": "p5s3.ResearchSimulation",
               "module": "ResearchSimulation",
-              "type": "Input",
+              "type": "input",
               "data": {
                 "isOptional": false,
                 "name": "q5:1_search_history",
@@ -567,7 +589,7 @@
       "labelNextPage": "Antworten absenden",
       "settings": {
         "allowMoveBack": false,
-        "allowProceed": true
+        "allowProceed": false
       },
       "sections": [
         {
@@ -576,6 +598,7 @@
           "elements": [
             {
               "id": "s0.headline",
+              "type": "text",
               "module": "headline",
               "data": {
                 "text": "Deine Einschätzung"
@@ -583,6 +606,7 @@
             },
             {
               "id": "s0.text",
+              "type": "text",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -592,9 +616,11 @@
             },
             {
               "id": "S0.q6:1",
+              "type": "input",
               "module": "SelectFromRange",
               "settings": {},
               "data": {
+                "isOptional": false,
                 "name": "q6:1",
                 "label": null,
                 "options": [
@@ -638,6 +664,7 @@
             },
             {
               "id": "s0.text_slider",
+              "type": "text",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -647,9 +674,11 @@
             },
             {
               "id": "S0.q6:2",
+              "type": "input",
               "module": "Slider",
               "settings": {},
               "data": {
+                "isOptional": false,
                 "name": "q6:2",
                 "label": null,
                 "unit": "%",
@@ -660,6 +689,7 @@
             },
             {
               "id": "s0.q6:3.pretext",
+              "type": "text",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -669,10 +699,12 @@
             },
             {
               "id": "s0.q6:3.input",
+              "type": "input",
               "module": "SelectFromRange",
               "settings": {},
               "data": {
                 "name": "q6:3",
+                "isOptional": false,
                 "label": null,
                 "options": [
                   {
@@ -715,6 +747,7 @@
             },
             {
               "id": "v1.text",
+              "type": "text",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -724,8 +757,8 @@
             },
             {
               "id": "4.1.v1.s1",
+              "type": "input",
               "module": "TextInput",
-              "type": "Input",
               "data": {
                 "isOptional": false,
                 "name": "q6:4",
@@ -745,7 +778,7 @@
       "labelNextPage": "Weiter",
       "settings": {
         "allowMoveBack": false,
-        "allowProceed": true
+        "allowProceed": false
       },
       "sections": [
         {
@@ -938,7 +971,7 @@
       "labelNextPage": "Weiter",
       "settings": {
         "allowMoveBack": false,
-        "allowProceed": true
+        "allowProceed": false
       },
       "sections": [
         {
@@ -947,6 +980,7 @@
           "elements": [
             {
               "id": "p8s1.headline",
+              "type": "text",
               "module": "headline",
               "data": {
                 "text": "Weitere Fragen"
@@ -954,6 +988,7 @@
             },
             {
               "id": "q8:1.pretext",
+              "type": "text",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -964,10 +999,12 @@
             },
             {
               "id": "q8:1.input",
+              "type": "input",
               "module": "SelectFromRange",
               "settings": {},
               "data": {
                 "name": "q8:1",
+                "isOptional": false,
                 "label": null,
                 "options": [
                   {
@@ -1016,6 +1053,7 @@
           "elements": [
             {
               "id": "p8s2.headline",
+              "type": "text",
               "module": "headline",
               "data": {
                 "text": "Fragen zum Fall"
@@ -1023,6 +1061,7 @@
             },
             {
               "id": "p8s2.text",
+              "type": "text",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -1032,6 +1071,7 @@
             },
             {
               "id": "q8:2.pretext",
+              "type": "text",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -1041,10 +1081,12 @@
             },
             {
               "id": "p8s1.Range1",
+              "type": "input",
               "module": "SelectFromRange",
               "settings": {},
               "data": {
                 "name": "q8:2",
+                "isOptional": false,
                 "label": null,
                 "options": [
                   {
@@ -1075,6 +1117,7 @@
             },
             {
               "id": "q8:3.pretext",
+              "type": "text",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -1084,10 +1127,12 @@
             },
             {
               "id": "q8:3.input",
+              "type": "input",
               "module": "SelectFromRange",
               "settings": {},
               "data": {
                 "name": "q8:3",
+                "isOptional": false,
                 "label": null,
                 "options": [
                   {
@@ -1127,7 +1172,7 @@
       "labelNextPage": "Weiter",
       "settings": {
         "allowMoveBack": false,
-        "allowProceed": true
+        "allowProceed": false
       },
       "sections": [
         {
@@ -1136,6 +1181,7 @@
           "elements": [
             {
               "id": "p9s1.headline",
+              "type": "text",
               "module": "headline",
               "data": {
                 "text": "Demografische Fragen"
@@ -1144,16 +1190,17 @@
             {
               "id": "p9q1.Dropdown",
               "module": "DropDown",
-              "type": "Input",
+              "type": "input",
               "settings": {},
               "data": {
                 "name": "q9:1",
+                "isOptional": false,
                 "label": "Was ist deine aktuelle Position hier in diesem Unternehmen?",
                 "choices": "single",
                 "options": [
                   {
                     "label": "-",
-                    "value": "-"
+                    "value": "Bitte auswählen..."
                   },
                   {
                     "label": "Assistant",
@@ -1189,7 +1236,7 @@
             {
               "id": "p9q2",
               "module": "TextInput",
-              "type": "Input",
+              "type": "input",
               "data": {
                 "isOptional": false,
                 "name": "q9:2",
@@ -1201,7 +1248,7 @@
             {
               "id": "p9q3",
               "module": "TextInput",
-              "type": "Input",
+              "type": "input",
               "data": {
                 "isOptional": false,
                 "name": "q9:3",
@@ -1213,7 +1260,7 @@
             {
               "id": "p9q4",
               "module": "TextInput",
-              "type": "Input",
+              "type": "input",
               "data": {
                 "isOptional": false,
                 "name": "q9:4",
@@ -1224,6 +1271,7 @@
             },
             {
               "id": "p9q5.text",
+              "type": "text",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -1233,10 +1281,12 @@
             },
             {
               "id": "p9q5.Range1",
+              "type": "input",
               "module": "SelectFromRange",
               "settings": {},
               "data": {
                 "name": "q9:5",
+                "isOptional": false,
                 "label": null,
                 "options": [
                   {
@@ -1268,7 +1318,7 @@
             {
               "id": "p9q6",
               "module": "TextInput",
-              "type": "Input",
+              "type": "input",
               "data": {
                 "isOptional": false,
                 "name": "q9:6",
@@ -1280,16 +1330,17 @@
             {
               "id": "p9q7.Dropdown",
               "module": "DropDown",
-              "type": "Input",
+              "type": "input",
               "settings": {},
               "data": {
                 "name": "q9:7",
+                "isOptional": false,
                 "label": "Was ist dein Geschlecht?",
                 "choices": "single",
                 "options": [
                   {
                     "label": "-",
-                    "value": "-"
+                    "value": "Bitte auswählen..."
                   },
                   {
                     "label": "männlich",
@@ -1326,6 +1377,7 @@
           "elements": [
             {
               "id": "p10s1.headline",
+              "type": "text",
               "module": "headline",
               "data": {
                 "text": "Kommentare zur Studie"
@@ -1333,6 +1385,7 @@
             },
             {
               "id": "p10s1.text",
+              "type": "text",
               "module": "text",
               "data": {
                 "paragraphs": [
@@ -1343,9 +1396,9 @@
             {
               "id": "p10q1",
               "module": "TextInput",
-              "type": "Input",
+              "type": "input",
               "data": {
-                "isOptional": true,
+                "isOptional": false,
                 "name": "q10:1",
                 "rows": 4,
                 "label": "Gibt es Informationen, die du gerne gehabt hättest, die dir in diesem Fall aber nicht zur Verfügung gestellt wurden?",
@@ -1355,9 +1408,9 @@
             {
               "id": "p10q2",
               "module": "TextInput",
-              "type": "Input",
+              "type": "input",
               "data": {
-                "isOptional": true,
+                "isOptional": false,
                 "name": "q10:2",
                 "rows": 4,
                 "label": "Hast du sonstige Anmerkungen zu diesem Fall?",
@@ -1377,10 +1430,11 @@
             {
               "id": "p9q7.Dropdown",
               "module": "DropDown",
-              "type": "Input",
+              "type": "input",
               "settings": {},
               "data": {
                 "name": "q10:3",
+                "isOptional": true,
                 "label": "Möchten Sie per E-Mail informiert werden?",
                 "choices": "single",
                 "options": [
