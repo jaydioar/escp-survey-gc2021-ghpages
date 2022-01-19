@@ -2,7 +2,7 @@
   "meta": {
     "surveyId": "2022-going-concern",
     "title": "ESCP Survey - Going Concern (2022)",
-    "version": "0.5.1"
+    "version": "0.5.2"
   },
   "general": {
     "settings": {
@@ -318,7 +318,7 @@
       "labelNextPage": "Weiter",
       "settings": {
         "allowMoveBack": false,
-        "allowProceed": true
+        "allowProceed": false
       },
       "sections": [
         {
@@ -376,7 +376,7 @@
                           "isOptional": false,
                           "name": "q4:1_v1",
                           "rows": 3,
-                          "label": "Aussage 1)",
+                          "label": "Aussage A)",
                           "placeholder": "hier eingeben..."
                         }
                       },
@@ -756,11 +756,11 @@
               }
             },
             {
-              "id": "4.1.v1.s1",
+              "id": "p6q4.heading",
               "type": "input",
               "module": "TextInput",
               "data": {
-                "isOptional": false,
+                "isOptional": true,
                 "name": "q6:4",
                 "rows": 3,
                 "label": null,
@@ -1086,7 +1086,7 @@
               "settings": {},
               "data": {
                 "name": "q8:2",
-                "isOptional": false,
+                "isOptional": true,
                 "label": null,
                 "options": [
                   {
@@ -1132,7 +1132,7 @@
               "settings": {},
               "data": {
                 "name": "q8:3",
-                "isOptional": false,
+                "isOptional": true,
                 "label": null,
                 "options": [
                   {
@@ -1194,13 +1194,13 @@
               "settings": {},
               "data": {
                 "name": "q9:1",
-                "isOptional": false,
+                "isOptional": true,
                 "label": "Was ist deine aktuelle Position hier in diesem Unternehmen?",
                 "choices": "single",
                 "options": [
                   {
-                    "label": "-",
-                    "value": "Bitte auswählen..."
+                    "label": "Bitte auswählen...",
+                    "value": "-"
                   },
                   {
                     "label": "Assistant",
@@ -1238,7 +1238,7 @@
               "module": "TextInput",
               "type": "input",
               "data": {
-                "isOptional": false,
+                "isOptional": true,
                 "name": "q9:2",
                 "rows": 1,
                 "label": "Wie viele Jahre arbeitest du schon hier in diesem Unternehmen?",
@@ -1250,7 +1250,7 @@
               "module": "TextInput",
               "type": "input",
               "data": {
-                "isOptional": false,
+                "isOptional": true,
                 "name": "q9:3",
                 "rows": 1,
                 "label": "Ungefähr wie viele Monate hast du in dieser Zeit in der Wirtschaftsprüfung (Audit) gearbeitet (einschließlich Praktika und Werkstudententätigkeiten)?",
@@ -1262,7 +1262,7 @@
               "module": "TextInput",
               "type": "input",
               "data": {
-                "isOptional": false,
+                "isOptional": true,
                 "name": "q9:4",
                 "rows": 1,
                 "label": "Bei wie vielen Abschlussprüfungen hast du mitgewirkt, bei denen Zweifel an der Angemessenheit der Annahme der Unternehmensfortführung bestanden (unabhängig) von der Art des erteilten Bestätigungsvermerks)?",
@@ -1286,7 +1286,7 @@
               "settings": {},
               "data": {
                 "name": "q9:5",
-                "isOptional": false,
+                "isOptional": true,
                 "label": null,
                 "options": [
                   {
@@ -1320,7 +1320,7 @@
               "module": "TextInput",
               "type": "input",
               "data": {
-                "isOptional": false,
+                "isOptional": true,
                 "name": "q9:6",
                 "rows": 1,
                 "label": "Wie alt bist du?",
@@ -1334,13 +1334,13 @@
               "settings": {},
               "data": {
                 "name": "q9:7",
-                "isOptional": false,
+                "isOptional": true,
                 "label": "Was ist dein Geschlecht?",
                 "choices": "single",
                 "options": [
                   {
-                    "label": "-",
-                    "value": "Bitte auswählen..."
+                    "label": "Bitte auswählen...",
+                    "value": "-"
                   },
                   {
                     "label": "männlich",
@@ -1398,7 +1398,7 @@
               "module": "TextInput",
               "type": "input",
               "data": {
-                "isOptional": false,
+                "isOptional": true,
                 "name": "q10:1",
                 "rows": 4,
                 "label": "Gibt es Informationen, die du gerne gehabt hättest, die dir in diesem Fall aber nicht zur Verfügung gestellt wurden?",
@@ -1410,7 +1410,7 @@
               "module": "TextInput",
               "type": "input",
               "data": {
-                "isOptional": false,
+                "isOptional": true,
                 "name": "q10:2",
                 "rows": 4,
                 "label": "Hast du sonstige Anmerkungen zu diesem Fall?",
@@ -1439,11 +1439,11 @@
                 "choices": "single",
                 "options": [
                   {
-                    "label": "nein",
+                    "label": "Nein",
                     "value": "n"
                   },
                   {
-                    "label": "ja",
+                    "label": "Ja",
                     "value": "y"
                   }
                 ]
