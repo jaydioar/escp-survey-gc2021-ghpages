@@ -1270,16 +1270,6 @@
               }
             },
             {
-              "id": "p9q5.text",
-              "type": "text",
-              "module": "text",
-              "data": {
-                "paragraphs": [
-                  "Wie sehr bist du vertraut mit den bestehenden Prüfungsstandards (ISA 570, IDW PS 270) und diesbezüglichen firmeninternen Richtlinien in Bezug auf die Prüfung der Angemessenheit der Unternehmensfortführungs-Annahme?"
-                ]
-              }
-            },
-            {
               "id": "p9q5.Range1",
               "type": "input",
               "module": "SelectFromRange",
@@ -1287,7 +1277,7 @@
               "data": {
                 "name": "q9:5",
                 "isOptional": true,
-                "label": null,
+                "label": "Wie sehr bist du vertraut mit den bestehenden Prüfungsstandards (ISA 570, IDW PS 270) und diesbezüglichen firmeninternen Richtlinien in Bezug auf die Prüfung der Angemessenheit der Unternehmensfortführungs-Annahme?",
                 "options": [
                   {
                     "value": 1,
