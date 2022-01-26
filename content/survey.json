@@ -54,7 +54,7 @@
       "nextId": 3,
       "labelNextPage": "Weiter",
       "settings": {
-        "allowMoveBack": true,
+        "allowMoveBack": false,
         "allowProceed": true
       },
       "sections": [
@@ -127,7 +127,7 @@
       "nextId": 4,
       "labelNextPage": "Weiter",
       "settings": {
-        "allowMoveBack": true,
+        "allowMoveBack": false,
         "allowProceed": false
       },
       "sections": [
@@ -370,19 +370,19 @@
                       },
                       {
                         "id": "p4v1.s1",
-                        "module": "TextInput",
+                        "module": "TextArea",
                         "type": "input",
                         "data": {
                           "isOptional": false,
                           "name": "q4:1_v1",
                           "rows": 3,
-                          "label": "Aussage A)",
+                          "label": "Aussage 1)",
                           "placeholder": "hier eingeben..."
                         }
                       },
                       {
                         "id": "p4v1.s2",
-                        "module": "TextInput",
+                        "module": "TextArea",
                         "type": "input",
                         "data": {
                           "isOptional": false,
@@ -394,7 +394,7 @@
                       },
                       {
                         "id": "p4v1.s3",
-                        "module": "TextInput",
+                        "module": "TextArea",
                         "type": "input",
                         "data": {
                           "isOptional": false,
@@ -434,7 +434,7 @@
                       },
                       {
                         "id": "p4v2.s1",
-                        "module": "TextInput",
+                        "module": "TextArea",
                         "type": "input",
                         "data": {
                           "isOptional": false,
@@ -446,7 +446,7 @@
                       },
                       {
                         "id": "p4v2.s2",
-                        "module": "TextInput",
+                        "module": "TextArea",
                         "type": "input",
                         "data": {
                           "isOptional": false,
@@ -458,7 +458,7 @@
                       },
                       {
                         "id": "p4v2.a3",
-                        "module": "TextInput",
+                        "module": "TextArea",
                         "type": "input",
                         "data": {
                           "isOptional": false,
@@ -1172,7 +1172,7 @@
       "labelNextPage": "Weiter",
       "settings": {
         "allowMoveBack": false,
-        "allowProceed": false
+        "allowProceed": true
       },
       "sections": [
         {
