@@ -486,7 +486,7 @@
         "allowMoveBack": false,
         "allowProceed": false,
         "confirmMoveForward": {
-          "title": "Möchten Sie jetzt Ihre Einschätzung abgeben?",
+          "title": "Möchtest du jetzt deine Einschätzung abgeben?",
           "text": [
             "Wenn du jetzt auf 'Bestätigen' klickst, dann kannst du nicht mehr zurück zur Suche.",
             "Bist du sicher, dass du alle nötigen Daten recherchiert hast und jetzt deine Einschätzung abgeben willst?"
@@ -1425,7 +1425,7 @@
               "data": {
                 "name": "q10:3",
                 "isOptional": true,
-                "label": "Möchten Sie per E-Mail informiert werden?",
+                "label": "Möchtest du per E-Mail informiert werden?",
                 "choices": "single",
                 "options": [
                   {
