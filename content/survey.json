@@ -41,7 +41,9 @@
                   "Herzlichen Dank für deine Teilnahme an dieser Studie und für deine wertvolle Zeit. Ziel dieses Forschungsprojektes ist es, Erkenntnisse über die Entscheidungsfindung eines/einer (Abschluss-)Prüfers/Prüferin zu gewinnen. Daher werden dir Fragen gestellt, wie du Informationen beurteilst.",
                   "Bitte bearbeite die Fallstudie so gut du kannst. Es ist nicht notwendig, Quellen oder Hilfsmittel außerhalb des Fallmaterials zu benutzen, und daher solltest du auch kein zusätzliches Material bei der Bearbeitung verwenden. [b]Deine Antworten werden während der Bearbeitung der Fallstudie gespeichert.[/b] Klicke daher bitte [b]niemals auf den “Zurück”-Button im Browser, denn andernfalls sind deine Antworten nicht verwendbar.[/b]",
                   "Da es in dieser Studie um den Entscheidungsprozess einer Einzelperson geht, ist es [b]wichtig, dass du unabhängig von anderen Personen arbeitest.[/b] Deine Antworten werden mit anderen aggregiert und können nicht mehr mit deiner Person verknüpft werden. Wenn du über die Studienergebnisse informiert werden möchtest, gib bitte am Ende dieser Studie deine E-Mail-Adresse an.",
-                  "Es besteht die Pflicht, die Teilnehmenden vor der Durchführung über die wesentlichen Aspekte der Studie (z.B. Freiwilligkeit, Anonymität der Daten) aufzuklären. Diese Informationen kannst du [b][url=/pdfs/informed_consent.pdf]HIER[/url][/b] abrufen. Durch das Klicken auf den Button \"Los geht's\" gibst du dein <b>informiertes Einverständnis</b> zur Teilnahme an der Studie"
+                  "Es besteht die Pflicht, die Teilnehmenden vor der Durchführung über die wesentlichen Aspekte der Studie (z.B. Freiwilligkeit, Anonymität der Daten) aufzuklären. Diese Informationen kannst du",
+                  "[center][b][url=/pdfs/informed_consent.pdf]>>> HIER <<<[/url][/b][/center]",
+                  "abrufen. Durch das Klicken auf den Button \"Los geht's\" erklärst du dein <b>informiertes Einverständnis</b> zur Teilnahme an der Studie."
                 ]
               }
             }
