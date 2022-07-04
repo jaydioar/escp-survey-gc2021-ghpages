@@ -184,7 +184,8 @@
               "module": "LinkThumbnail",
               "settings": {},
               "data": {
-                "name": "pdf-bilanz",
+                "name": "pdf-bilanz-opened",
+                "isOptional": false,
                 "title": "Bilanz",
                 "url": "./pdfs/bilanz.pdf",
                 "target": "_blank"
@@ -196,7 +197,8 @@
               "module": "LinkThumbnail",
               "settings": {},
               "data": {
-                "name": "pdf-guV",
+                "name": "pdf-guv-opened",
+                "isOptional": false,
                 "title": "Gewinn- und Verlustrechnung",
                 "url": "./pdfs/guv.pdf",
                 "target": "_blank"
@@ -208,7 +210,8 @@
               "module": "LinkThumbnail",
               "settings": {},
               "data": {
-                "name": "pdf-cashflowinfo",
+                "name": "pdf-cashflowinfo-opened",
+                "isOptional": false,
                 "title": "Ausgewählte Cashflow-Informationen",
                 "url": "./pdfs/cashflowinfo.pdf",
                 "target": "_blank"
@@ -307,6 +310,18 @@
                     "value": 5,
                     "label": "sehr[br]sicher"
                   }
+                ]
+              }
+            },
+            {
+              "id": "p3s1.text",
+              "module": "text",
+              "data": {
+                "paragraphs": [
+                  "[br]",
+                  "[br]",
+                  "[br]",
+                  "<b>Bitte schauen Sie sich die drei Dokumente (Bilanz, Gewinn- und Verlustrechnung, Ausgewählte Cashflow-Informationen) im Mittelteil dieser Seite an, um fortzufahren...</b>"
                 ]
               }
             }
@@ -533,36 +548,39 @@
               "data": {},
               "elements": [
                 {
-                  "id": "p5s2.linkpdfBilanz",
+                  "id": "p5s2.linkpdfBilanz2",
                   "module": "LinkThumbnail",
                   "settings": {},
                   "type": "Viewer",
                   "data": {
-                    "name": "pdf-bilanz",
+                    "isOptional": true,
+                    "name": "pdf-bilanz2",
                     "title": "Bilanz",
                     "url": "./pdfs/bilanz.pdf",
                     "target": "_blank"
                   }
                 },
                 {
-                  "id": "p5s2.linkpdfGuV",
+                  "id": "p5s2.linkpdfGuV2",
                   "module": "LinkThumbnail",
                   "settings": {},
                   "type": "Viewer",
                   "data": {
-                    "name": "pdf-guV",
+                    "isOptional": true,
+                    "name": "pdf-guV2",
                     "title": "Gewinn- und Verlustrechnung",
                     "url": "./pdfs/guv.pdf",
                     "target": "_blank"
                   }
                 },
                 {
-                  "id": "p5s2.linkpdfcashflowinfo",
+                  "id": "p5s2.linkpdfcashflowinfo2",
                   "module": "LinkThumbnail",
                   "settings": {},
                   "type": "Viewer",
                   "data": {
-                    "name": "pdf-cashflowinfo",
+                    "isOptional": true,
+                    "name": "pdf-cashflowinfo2",
                     "title": "Ausgewählte Cashflow-Informationen",
                     "url": "./pdfs/cashflowinfo.pdf",
                     "target": "_blank"
