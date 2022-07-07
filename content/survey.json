@@ -595,7 +595,7 @@
                 "name": "q5:1_search_history",
                 "label": "Suchmaschine",
                 "placeholder": "Suchbegriff",
-                "notFoundMessage": "Wir haben leider keine passenden Ergebnisse zu Deiner Suchanfrage gefunden... Bitte versuche es mit einem anderen Suchbegriff.",
+                "notFoundMessage": "Wir haben leider keine passenden Ergebnisse zu deiner Suchanfrage gefunden... Bitte versuche es mit einem anderen Suchbegriff.",
                 "labelOpenDocument": "Dokument öffnen"
               }
             }
