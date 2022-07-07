@@ -1256,7 +1256,7 @@
             },
             {
               "id": "p9q2",
-              "module": "TextInput",
+              "module": "NumericalInput",
               "type": "input",
               "data": {
                 "isOptional": true,
@@ -1268,7 +1268,7 @@
             },
             {
               "id": "p9q3",
-              "module": "TextInput",
+              "module": "NumericalInput",
               "type": "input",
               "data": {
                 "isOptional": true,
@@ -1280,7 +1280,7 @@
             },
             {
               "id": "p9q4",
-              "module": "TextInput",
+              "module": "NumericalInput",
               "type": "input",
               "data": {
                 "isOptional": true,
@@ -1328,7 +1328,7 @@
             },
             {
               "id": "p9q6",
-              "module": "TextInput",
+              "module": "NumericalInput",
               "type": "input",
               "data": {
                 "isOptional": true,
