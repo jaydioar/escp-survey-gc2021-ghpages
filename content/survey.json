@@ -1468,8 +1468,8 @@
                 "isOptional": true,
                 "name": "q10:4",
                 "rows": 1,
-                "label": "Deine E-Mail Adresse",
-                "placeholder": "E-Mail Adresse eingeben..."
+                "label": "Deine E-Mail-Adresse",
+                "placeholder": "E-Mail-Adresse eingeben..."
               }
             }
           ]
