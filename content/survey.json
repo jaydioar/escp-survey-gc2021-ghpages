@@ -504,7 +504,7 @@
         "confirmMoveForward": {
           "title": "Möchtest du jetzt deine Einschätzung abgeben?",
           "text": [
-            "Wenn du jetzt auf 'Bestätigen' klickst, dann kannst du nicht mehr zurück zur Suche.",
+            "Wenn du jetzt auf 'Ja, weiter' klickst, dann kannst du nicht mehr zurück zur Suche.",
             "Bist du sicher, dass du alle nötigen Daten recherchiert hast und jetzt deine Einschätzung abgeben willst?"
           ],
           "buttons": {
