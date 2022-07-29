@@ -367,7 +367,7 @@
                         "module": "text",
                         "data": {
                           "paragraphs": [
-                            "Überlege dir paradoxe Aussagen, die dir in der Vergangenheit begegnet sind oder die du interessant findest. Schreibe diese bitte in den unten vorgesehenen Platz. Bitte notiere mindestens drei solcher Aussagen.",
+                            "Überlege dir paradoxe Aussagen. Bitte notiere drei solcher Aussagen in den unten vorgesehenen Platz.",
                             "Mit „paradox“ sind scheinbar in sich widersprüchliche und dennoch möglicherweise wahre Aussagen gemeint, zum Beispiel:"
                           ]
                         }
@@ -432,7 +432,7 @@
                         "module": "text",
                         "data": {
                           "paragraphs": [
-                            "Überlege dir Aussagen, die dir in der Vergangenheit begegnet sind oder die du interessant findest. Schreibe diese bitte in den unten vorgesehenen Platz. Bitte notier mindestens drei solcher Aussagen, zum Beispiel:"
+                            "Überlege dir Aussagen, die deine letzten Mahlzeiten oder Essgewohnheiten beschreiben. Bitte notiere drei solcher Aussagen in den unten vorgesehenen Platz, zum Beispiel:"
                           ]
                         }
                       },
@@ -442,9 +442,9 @@
                         "module": "bulletlist",
                         "data": {
                           "paragraphs": [
-                            "Viele Menschen denken, dass Stehen anstrengend ist.",
-                            "Viele Menschen denken, dass Dinge, die wir nicht leicht haben können, begehrenswert sind.",
-                            "Viele Menschen denken, dass unabhängige Wirtschaftsprüfer eine wichtige Rolle in Wirtschaft und Gesellschaft erfüllen."
+                            "Frühstück kaufe ich meistens unterwegs bei einer Bäckerei.",
+                            "Ich esse gerne eine warme Mahlzeit am Tag.",
+                            "Gestern Mittag habe ich in einem italienischen Restaurant Pasta gegessen."
                           ]
                         }
                       },
