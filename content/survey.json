@@ -1032,11 +1032,11 @@
                 "options": [
                   {
                     "value": 1,
-                    "label": "Die Aussagen sollten in sich widersprüchlich (paradox) sein"
+                    "label": "Die Aussagen sollten in sich widersprüchlich (paradox) sein."
                   },
                   {
                     "value": 2,
-                    "label": "Die Aussagen sollten sich auf meine Essgewohnheiten in den letzten Tagen beziehen"
+                    "label": "Die Aussagen sollten sich auf meine letzten Mahlzeiten oder Essgewohnheiten beziehen."
                   }
                 ]
               }
