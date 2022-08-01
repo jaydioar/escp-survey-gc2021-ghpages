@@ -1014,8 +1014,7 @@
               "module": "text",
               "data": {
                 "paragraphs": [
-                  "Die folgende Frage ist für die Auswertung deiner Antworten wichtig. Du wurdest zu Beginn der Studie gebeten, drei Aussagen zu formulieren. Bitte gib an, welche Art Aussagen du zu Beginn der Studie notieren solltest.",
-                  "[b]Die Aussagen sollten ...[/b]"
+                  "Die folgende Frage ist für die Auswertung deiner Antworten wichtig. Du wurdest zu Beginn der Studie gebeten, drei Aussagen zu formulieren. Bitte gib an, welche Art Aussagen du zu Beginn der Studie notieren solltest."
                 ]
               }
             },
@@ -1033,11 +1032,11 @@
                 "options": [
                   {
                     "value": 1,
-                    "label": "... in sich widersprüchlich (paradox) sein."
+                    "label": "Die Aussagen sollten in sich widersprüchlich (paradox) sein"
                   },
                   {
                     "value": 2,
-                    "label": "... sich auf meine letzten Mahlzeiten oder Essgewohnheiten beziehen."
+                    "label": "Die Aussagen sollten sich auf meine Essgewohnheiten in den letzten Tagen beziehen"
                   }
                 ]
               }
