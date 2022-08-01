@@ -530,7 +530,7 @@
               "module": "text",
               "data": {
                 "paragraphs": [
-                 "Die nun folgende Suche nach Informationen ist der wesentliche Teil der Studie, dem du den Großteil deiner Bearbeitungszeit widmen solltest (ca. 20-30 Minuten). ",
+                  "Die nun folgende Suche nach Informationen ist der wesentliche Teil der Studie, dem du den Großteil deiner Bearbeitungszeit widmen solltest (ca. 20-30 Minuten). ",
                   "Erinnere dich, dass du in der Rolle des/der verantwortlichen Prüfers/Prüferin bei der Abschlussprüfung der Loschert Electronic AG bist. ",
                   "Das Management von Loschert geht davon aus, dass die Annahme der Unternehmensfortführung angemessen ist, hat aber diesbezüglich noch keine detaillierte Stellungnahme zur Fortführungsannahme vorgelegt.",
                   "Bitte suche in den Arbeitspapieren nach Informationen, die du für die Beurteilung der Annahmen, die der Fortführungsprognose zu Grunde liegen, für relevant hältst. Dein Ziel ist es, dich auf die Beurteilung der vom Management noch vorzulegenden Stellungnahme zur Fortführungsannahme vorzubereiten und der für Loschert zuständigen Partnerin eine fundierte Auskunft über deine Einschätzung zu geben. Nachdem du deinen Suchbegriff eingegeben hast, erhältst du jeweils eine Liste aller verfügbaren Unterlagen aus den Arbeitspapieren, die deinem Suchbegriff entsprechen. Bitte gib pro Suchvorgang nur einen Suchbegriff ein. ",
@@ -1014,8 +1014,7 @@
               "module": "text",
               "data": {
                 "paragraphs": [
-                  "Wie sehr stimmst du dem Folgenden in Bezug auf die drei Aussagen zu, die du zu Beginn der Fallstudie (vor deiner ersten Suche) formulieren solltest?",
-                  "In den drei von mir formulierten notierten Aussagen gibt es Widersprüche:"
+                  "Die folgende Frage ist für die Auswertung deiner Antworten wichtig. Du wurdest zu Beginn der Studie gebeten, drei Aussagen zu formulieren. Bitte gib an, welche Art Aussagen du zu Beginn der Studie notieren solltest."
                 ]
               }
             },
@@ -1028,41 +1027,16 @@
                 "name": "q8:1",
                 "isOptional": false,
                 "label": null,
+                "alignment": "vertical",
+                "randomizeOrder": true,
                 "options": [
                   {
                     "value": 1,
-                    "label": "stimme[br]gar nicht[br]zu"
+                    "label": "Die Aussagen sollten in sich widersprüchlich (paradox) sein"
                   },
                   {
-                    "value": 2
-                  },
-                  {
-                    "value": 3
-                  },
-                  {
-                    "value": 4
-                  },
-                  {
-                    "value": 5
-                  },
-                  {
-                    "value": 6
-                  },
-                  {
-                    "value": 7
-                  },
-                  {
-                    "value": 8
-                  },
-                  {
-                    "value": 9
-                  },
-                  {
-                    "value": 10
-                  },
-                  {
-                    "value": 11,
-                    "label": "stimme[br]voll[br]zu"
+                    "value": 2,
+                    "label": "Die Aussagen sollten sich auf meine Essgewohnheiten in den letzten Tagen beziehen"
                   }
                 ]
               }
