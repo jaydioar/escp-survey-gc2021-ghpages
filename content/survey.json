@@ -1,6 +1,6 @@
 {
   "meta": {
-    "surveyId": "2022-going-concern",
+    "surveyId": "2022-going-concern-TEST-FINAL",
     "title": "ESCP Survey - Going Concern (2022)",
     "version": "0.6.1"
   },
@@ -359,7 +359,9 @@
                 "versions": [
                   {
                     "id": "v1",
-                    "settings": {},
+                    "settings": {
+                      "weight": 0.75
+                    },
                     "elements": [
                       {
                         "id": "p4v1.text",
@@ -424,7 +426,9 @@
                   },
                   {
                     "id": "v2",
-                    "settings": {},
+                    "settings": {
+                      "weight": 0.25
+                    },
                     "elements": [
                       {
                         "id": "p4v2.text",
@@ -1014,7 +1018,8 @@
               "module": "text",
               "data": {
                 "paragraphs": [
-                  "Die folgende Frage ist für die Auswertung deiner Antworten wichtig. Du wurdest zu Beginn der Studie gebeten, drei Aussagen zu formulieren. Bitte gib an, welche Art Aussagen du zu Beginn der Studie notieren solltest."
+                  "Die folgende Frage ist für die Auswertung deiner Antworten wichtig. Du wurdest zu Beginn der Studie gebeten, drei Aussagen zu formulieren. Bitte gib an, welche Art Aussagen du zu Beginn der Studie notieren solltest.",
+                  "[b]Die Aussagen sollten ...[/b]"
                 ]
               }
             },
@@ -1032,11 +1037,11 @@
                 "options": [
                   {
                     "value": 1,
-                    "label": "Die Aussagen sollten in sich widersprüchlich (paradox) sein"
+                    "label": "... in sich widersprüchlich (paradox) sein."
                   },
                   {
                     "value": 2,
-                    "label": "Die Aussagen sollten sich auf meine Essgewohnheiten in den letzten Tagen beziehen"
+                    "label": "... sich auf meine letzten Mahlzeiten oder Essgewohnheiten beziehen."
                   }
                 ]
               }
@@ -1168,7 +1173,7 @@
       "labelNextPage": "Weiter",
       "settings": {
         "allowMoveBack": false,
-        "allowProceed": true
+        "allowProceed": false
       },
       "sections": [
         {
@@ -1234,7 +1239,7 @@
               "module": "NumericalInput",
               "type": "input",
               "data": {
-                "isOptional": true,
+                "isOptional": false,
                 "name": "q9:2",
                 "rows": 1,
                 "label": "Wie viele Jahre arbeitest du schon hier in diesem Unternehmen?",
@@ -1258,7 +1263,7 @@
               "module": "NumericalInput",
               "type": "input",
               "data": {
-                "isOptional": true,
+                "isOptional": false,
                 "name": "q9:4",
                 "rows": 1,
                 "label": "Bei wie vielen Abschlussprüfungen hast du mitgewirkt, bei denen Zweifel an der Angemessenheit der Annahme der Unternehmensfortführung bestanden (unabhängig) von der Art des erteilten Bestätigungsvermerks)?",
@@ -1306,7 +1311,7 @@
               "module": "NumericalInput",
               "type": "input",
               "data": {
-                "isOptional": true,
+                "isOptional": false,
                 "name": "q9:6",
                 "rows": 1,
                 "label": "Wie alt bist du?",
@@ -1320,7 +1325,7 @@
               "settings": {},
               "data": {
                 "name": "q9:7",
-                "isOptional": true,
+                "isOptional": false,
                 "label": "Was ist dein Geschlecht?",
                 "choices": "single",
                 "options": [
